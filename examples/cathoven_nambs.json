@@ -1,203 +1,240 @@
 {
-  "band": 58,
+  "band": 3,
   "cefr": "B1",
   "breakdown": {
-    "task_achievement": {
-      "band": 64,
+    "tr": {
+      "band": 3,
       "breakdown": {
-        "position": 70,
-        "development": 60,
-        "prompt_coverage": 62
+        "task_achievement": 3
       },
       "raw": {
-        "summary": "Both questions are addressed, but practical methods for preserving local languages are insufficiently developed."
+        "score": 3.2
       },
-      "comment": "The position is clear and supported with relevant reasons. More specific preservation measures, such as bilingual education or community programmes, are needed.",
-      "name": "Task Achievement"
+      "comment": "The candidate addresses both parts of the prompt: whether everyone should learn English and whether local languages should be preserved. However, the final question ('how' to ensure their survival) is answered only cursorily with vague suggestions ('Schools and governments must do things'). Development of ideas remains at a straightforward B1 level.",
+      "name": "Task Response"
     },
-    "fluency_and_coherence": {
-      "band": 66,
+    "cc": {
+      "band": 3,
       "breakdown": {
-        "organisation": 70,
-        "cohesion": 62,
-        "progression": 65
+        "coherence_cohesion": 3
       },
       "raw": {
-        "summary": "Clear paragraphing and logical progression, with mostly basic linking expressions."
+        "score": 3.1
       },
-      "comment": "The essay is easy to follow and organised appropriately. Cohesive devices are accurate but limited in range.",
-      "name": "Fluency and Coherence"
+      "comment": "The essay follows a clear four-paragraph layout (introduction, English benefits, local languages importance, conclusion). Cohesive devices are basic and occasionally repetitive ('However', 'Also', 'In conclusion', 'Without knowing English'). Referencing and transitions between sentences are sometimes mechanical.",
+      "name": "Coherence and Cohesion"
     },
-    "lexical_resource": {
-      "band": 55,
+    "lr": {
+      "band": 3,
       "breakdown": {
-        "range": 58,
-        "precision": 50,
-        "word_formation": 52
+        "lexical_resource": 3
       },
       "raw": {
-        "errors": [
-          "knowledges",
-          "musics",
-          "very serious",
-          "our personality"
-        ]
+        "score": 3.0
       },
-      "comment": "Vocabulary is sufficient to communicate the main ideas, but several unnatural expressions and uncountable-noun errors reduce precision.",
+      "comment": "Vocabulary is sufficient to convey general meaning on a familiar topic, but relies heavily on simple, repetitive terms ('important', 'lost', 'clever', 'people', 'good'). Collocation errors and unidiomatic word choices are present ('many knowledges', 'talk English', 'past times', 'musics', 'keep both languages living', 'our personality').",
       "name": "Lexical Resource"
     },
-    "grammatical_range_and_accuracy": {
-      "band": 47,
+    "gr": {
+      "band": 3,
       "breakdown": {
-        "range": 50,
-        "accuracy": 44,
-        "sentence_control": 48
+        "grammatical_range_accuracy": 3
       },
       "raw": {
-        "summary": "Meaning remains clear despite frequent errors in agreement, articles, plurals and verb forms."
+        "score": 2.8
       },
-      "comment": "The writer uses some complex sentences, but frequent basic grammatical errors prevent a higher score.",
+      "comment": "Grammatical control is limited to basic structures with frequent systematic errors in subject-verb agreement ('many people speaks', 'They is', 'It make'), passive voice formation ('everyone should be learned English'), missing prepositions/determiners ('going other country', 'That’s reason', 'from internet and book'), and countable/uncountable noun distinction ('many knowledges', 'musics').",
       "name": "Grammatical Range and Accuracy"
     }
   },
   "tags": {
-    "tr": "The response answers both questions, but the proposed preservation strategy is vague.",
+    "tr": "English is very important today and taught in many schools since it helps to students with job and going other country. However, that local languagaes is not taught in schools is also big issue, because some local languages can get lost in future. I think everyone should be learned English since many people speaks it. For example, many companies look for workers who talk English. It is the global language. Also, if you know English, you can learn many knowledges from internet and book. That’s reason schools teach it. It make students more clever. English is also important because it allows people to travel and communicate with others from different countries. Without knowing English, it is difficult to connect with people around the world. But local languages are very serious too. They is part of culture and histories. If we lost them, we forget our past times. Some stories and musics is only in local language. It is very difficult to change them into English because they lose original meanings. Local languages also help people feel connected to their community and traditions. If we stop speaking these languages, we could lose important knowledge about our ancestors and history. In conclusion, English is good for job and learning, but we must not ignore local languages. They are our personality. Schools and governments must do things to keep both languages living, so we can protect culture and also grow in modern life.",
     "tr_details": [
       {
-        "id": "tr1",
+        "id": "tr_1",
         "content": "Schools and governments must do things to keep both languages living",
-        "comment": "Explain exactly what schools and governments should do.",
-        "revision": "Schools should provide bilingual classes, while governments should fund local-language media and cultural programmes.",
-        "type": "underdeveloped_idea",
-        "band": 64,
-        "combined_tagged": "Replace the vague proposal with specific preservation measures."
+        "comment": "The prompt asks 'if so, how?' to ensure language survival. Simply stating that authorities 'must do things' lacks development and concrete measures.",
+        "revision": "Schools and governments should implement bilingual curricula and fund cultural documentation programs to keep indigenous languages alive.",
+        "type": "Task Response",
+        "band": 3,
+        "combined_tagged": "Schools and governments must do things to keep both languages living"
       }
     ],
-    "cc": "Clear overall structure with an introduction, contrasting body paragraphs and a conclusion.",
+    "cc": "English is very important today and taught in many schools since it helps to students with job and going other country. However, that local languagaes is not taught in schools is also big issue, because some local languages can get lost in future.",
     "cc_details": [
       {
-        "id": "cc1",
-        "content": "But local languages are very serious too.",
-        "comment": "Use a more formal transition and precise wording.",
-        "revision": "Nevertheless, preserving local languages is equally important.",
-        "type": "transition",
-        "band": 66,
-        "combined_tagged": "But → Nevertheless"
+        "id": "cc_1",
+        "content": "However, that local languagaes is not taught in schools is also big issue",
+        "comment": "The clause structure and connective handling create a clumsy transition.",
+        "revision": "However, the fact that local languages are omitted from school curricula is a significant concern",
+        "type": "Coherence and Cohesion",
+        "band": 3,
+        "combined_tagged": "However, that local languagaes is not taught in schools is also big issue"
       }
     ],
-    "lr": "Adequate topic vocabulary, with several inaccurate word choices and noun forms.",
+    "lr": "English is very important today and taught in many schools since it helps to students with job and going other country.",
     "lr_details": [
       {
-        "id": "lr1",
+        "id": "lr_1",
+        "content": "workers who talk English",
+        "comment": "Incorrect collocation with language proficiency.",
+        "revision": "workers who speak English",
+        "type": "Collocation",
+        "band": 3,
+        "combined_tagged": "workers who talk English"
+      },
+      {
+        "id": "lr_2",
         "content": "many knowledges",
-        "comment": "Knowledge is normally uncountable.",
-        "revision": "a great deal of knowledge",
-        "type": "word_form",
-        "band": 55,
-        "combined_tagged": "many knowledges → a great deal of knowledge"
+        "comment": "'Knowledge' is an uncountable noun in standard English.",
+        "revision": "a vast amount of knowledge",
+        "type": "Word Choice",
+        "band": 3,
+        "combined_tagged": "many knowledges"
       },
       {
-        "id": "lr2",
-        "content": "stories and musics",
-        "comment": "Music is uncountable in this context.",
-        "revision": "stories and music",
-        "type": "word_form",
-        "band": 55,
-        "combined_tagged": "musics → music"
+        "id": "lr_3",
+        "content": "Some stories and musics is only in local language.",
+        "comment": "'Music' is uncountable.",
+        "revision": "Some traditional songs and music exist only in local languages.",
+        "type": "Word Choice",
+        "band": 3,
+        "combined_tagged": "Some stories and musics is only in local language."
       },
       {
-        "id": "lr3",
+        "id": "lr_4",
         "content": "They are our personality.",
-        "comment": "Identity is the appropriate word for cultural belonging.",
-        "revision": "They are part of our identity.",
-        "type": "word_choice",
-        "band": 55,
-        "combined_tagged": "our personality → part of our identity"
+        "comment": "Imprecise word choice; 'personality' refers to individual character traits rather than cultural identity.",
+        "revision": "They are essential to our cultural identity.",
+        "type": "Word Choice",
+        "band": 3,
+        "combined_tagged": "They are our personality."
       }
     ],
-    "gr": "Frequent errors occur in subject–verb agreement, verb forms, articles and plurals.",
+    "gr": "I think everyone should be learned English since many people speaks it.",
     "gr_details": [
       {
-        "id": "gr1",
+        "id": "gr_1",
+        "content": "helps to students with job and going other country",
+        "comment": "Erroneous preposition after 'helps' and missing preposition/determiner before 'country'.",
+        "revision": "helps students find jobs and travel to other countries",
+        "type": "Grammar",
+        "band": 3,
+        "combined_tagged": "helps to students with job and going other country"
+      },
+      {
+        "id": "gr_2",
         "content": "everyone should be learned English",
-        "comment": "Use the active infinitive after should.",
+        "comment": "Incorrect passive voice form where active modal structure is required.",
         "revision": "everyone should learn English",
-        "type": "verb_form",
-        "band": 47,
-        "combined_tagged": "should be learned → should learn"
+        "type": "Grammar",
+        "band": 3,
+        "combined_tagged": "everyone should be learned English"
       },
       {
-        "id": "gr2",
+        "id": "gr_3",
         "content": "many people speaks it",
-        "comment": "A plural subject requires the base verb.",
+        "comment": "Subject-verb agreement error with plural subject 'people'.",
         "revision": "many people speak it",
-        "type": "subject_verb_agreement",
-        "band": 47,
-        "combined_tagged": "people speaks → people speak"
+        "type": "Grammar",
+        "band": 3,
+        "combined_tagged": "many people speaks it"
       },
       {
-        "id": "gr3",
+        "id": "gr_4",
         "content": "They is part of culture and histories.",
-        "comment": "Correct the agreement and noun phrase.",
-        "revision": "They are part of a culture and its history.",
-        "type": "agreement",
-        "band": 47,
-        "combined_tagged": "They is → They are"
-      },
-      {
-        "id": "gr4",
-        "content": "If we lost them",
-        "comment": "Use the present simple in this conditional.",
-        "revision": "If we lose them",
-        "type": "tense",
-        "band": 47,
-        "combined_tagged": "lost → lose"
+        "comment": "Subject-verb agreement error ('They is') and awkward pluralization ('histories').",
+        "revision": "They are part of our culture and history.",
+        "type": "Grammar",
+        "band": 2,
+        "combined_tagged": "They is part of culture and histories."
       }
     ],
-    "lr_gr": "The essay is consistently understandable, but recurring lexical and grammatical inaccuracies limit control.",
+    "lr_gr": "A breakdown of specific sentence-level lexical and grammatical inaccuracies.",
     "lr_gr_details": [
       {
-        "sentence": "English is very important today and taught in many schools since it helps to students with job and going other country.",
+        "sentence": "I think everyone should be learned English since many people speaks it.",
         "inaccuracies": [
           {
-            "content": "helps to students with job and going other country",
-            "revision": "helps students find jobs and travel to other countries",
-            "comment": "Correct the verb pattern, plurals and phrasing.",
-            "type": "grammar_and_collocation",
-            "band": 47,
-            "id": "lrg1",
-            "combined_tagged": "helps to students... → helps students find jobs..."
+            "content": "should be learned",
+            "revision": "should learn",
+            "comment": "Incorrect passive construction.",
+            "type": "Grammar",
+            "band": 3,
+            "id": "lg_1",
+            "combined_tagged": "should be learned"
+          },
+          {
+            "content": "speaks",
+            "revision": "speak",
+            "comment": "Subject-verb agreement error with plural subject 'people'.",
+            "type": "Grammar",
+            "band": 3,
+            "id": "lg_2",
+            "combined_tagged": "speaks"
           }
         ]
       },
       {
-        "sentence": "It make students more clever.",
+        "sentence": "Also, if you know English, you can learn many knowledges from internet and book.",
         "inaccuracies": [
           {
-            "content": "It make",
-            "revision": "It makes",
-            "comment": "A third-person singular subject requires makes.",
-            "type": "subject_verb_agreement",
-            "band": 47,
-            "id": "lrg2",
-            "combined_tagged": "It make → It makes"
+            "content": "many knowledges",
+            "revision": "a great deal of knowledge",
+            "comment": "'Knowledge' is uncountable.",
+            "type": "Lexis",
+            "band": 3,
+            "id": "lg_3",
+            "combined_tagged": "many knowledges"
+          },
+          {
+            "content": "from internet and book",
+            "revision": "from the internet and books",
+            "comment": "Missing definite article and singular countable noun without determiner.",
+            "type": "Grammar",
+            "band": 3,
+            "id": "lg_4",
+            "combined_tagged": "from internet and book"
+          }
+        ]
+      },
+      {
+        "sentence": "They is part of culture and histories.",
+        "inaccuracies": [
+          {
+            "content": "They is",
+            "revision": "They are",
+            "comment": "Subject-verb agreement error.",
+            "type": "Grammar",
+            "band": 2,
+            "id": "lg_5",
+            "combined_tagged": "They is"
+          },
+          {
+            "content": "histories",
+            "revision": "history",
+            "comment": "Unnatural pluralization in this context.",
+            "type": "Lexis",
+            "band": 3,
+            "id": "lg_6",
+            "combined_tagged": "histories"
           }
         ]
       }
     ]
   },
   "focus": {
-    "category": "Grammar",
-    "title": "Subject–verb agreement and verb forms",
-    "explanation": "Practise forms such as “people speak,” “it makes,” “they are” and “we lose.” Correcting these frequent errors would substantially improve accuracy."
+    "category": "Grammar & Collocation",
+    "title": "Subject-Verb Agreement and Uncountable Nouns",
+    "explanation": "Focus on ensuring verb forms agree with plural and singular subjects ('many people speak', 'they are', 'it makes') and treat abstract nouns like 'knowledge' and 'music' as uncountable."
   },
-  "n_words": 240,
-  "n_original_words": 240,
-  "rubric": "CEFR Writing Assessment (0–100)",
-  "cminor_version": "1.0.0",
+  "n_words": 234,
+  "n_original_words": 234,
+  "rubric": "CEFR Writing Rubric (A1-C2)",
+  "cminor_version": "2.4.0",
   "allowed_remaining": {
-    "remaining_coins": 0,
-    "max_coins": 0,
+    "remaining_coins": 10.0,
+    "max_coins": 10.0,
     "next_refill": 0
   }
 }
