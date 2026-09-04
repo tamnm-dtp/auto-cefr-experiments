@@ -1,137 +1,137 @@
 {
-  "band": 54,
+  "band": 52,
   "cefr": "B1",
   "breakdown": {
-    "task_response": {
-      "band": 58,
+    "tr": {
+      "band": 55,
       "breakdown": {
-        "addressing_prompt": 60,
-        "depth_of_ideas": 55,
-        "conclusion_strength": 60
+        "addressing_prompt": 55,
+        "clarity_of_position": 55,
+        "development_of_ideas": 55
       },
       "raw": {
-        "score": 5.8
+        "score": 5.5
       },
-      "comment": "The candidate addresses the main elements of the prompt: explaining why English is important and why local languages should be preserved. However, suggestions on practical methods ('how to ensure survival') are relatively generic and briefly mentioned.",
+      "comment": "The response addresses the key parts of the prompt, acknowledging the importance of English for global communication and employment while advocating for preserving indigenous and local languages. However, some solutions regarding how to ensure their survival are only briefly touched upon in the conclusion.",
       "name": "Task Response"
     },
-    "coherence_and_cohesion": {
-      "band": 56,
+    "cc": {
+      "band": 52,
       "breakdown": {
-        "paragraph_structure": 60,
-        "logical_flow": 55,
-        "cohesive_devices": 53
-      },
-      "raw": {
-        "score": 5.6
-      },
-      "comment": "The text is organized into recognizable paragraphs with a clear progression from English to local languages. Cohesive devices are basic and occasionally repetitive ('Also', 'Because', 'If').",
-      "name": "Coherence and Cohesion"
-    },
-    "lexical_resource": {
-      "band": 50,
-      "breakdown": {
-        "range": 52,
-        "accuracy": 48,
-        "collocation": 50
+        "organization": 55,
+        "cohesive_devices": 50,
+        "progression": 50
       },
       "raw": {
         "score": 5.0
       },
-      "comment": "Vocabulary is sufficient for basic communication, but there are multiple issues with word choice ('talk English', 'serious', 'personality' instead of 'identity') and pluralization of uncountable nouns ('knowledges', 'musics').",
-      "name": "Lexical Resource"
+      "comment": "The text shows an organized four-paragraph structure with an introduction, body paragraphs, and conclusion. Cohesion is maintained mostly via basic transition signals ('However', 'For example', 'Also', 'In conclusion'), though sentence-to-sentence progression can feel abrupt and repetitive.",
+      "name": "Coherence and Cohesion"
     },
-    "grammatical_range_and_accuracy": {
+    "lr": {
       "band": 50,
       "breakdown": {
-        "grammatical_accuracy": 46,
-        "syntactic_range": 54,
+        "lexical_range": 50,
+        "word_choice": 50,
+        "spelling_formation": 50
+      },
+      "raw": {
+        "score": 5.0
+      },
+      "comment": "The vocabulary covers everyday communicative needs adequately for B1 level. However, there are noticeable unnatural word choices and non-standard forms (e.g., uncountable noun errors like 'knowledges' and 'musics', confusing 'talk English' with 'speak English', and 'personality' instead of 'identity').",
+      "name": "Lexical Resource"
+    },
+    "gr": {
+      "band": 48,
+      "breakdown": {
+        "sentence_variety": 48,
+        "grammatical_accuracy": 48,
         "punctuation": 50
       },
       "raw": {
-        "score": 5.0
+        "score": 4.5
       },
-      "comment": "There are frequent subject-verb agreement errors ('people speaks', 'languagaes is', 'It make', 'They is'), incorrect passive voice ('should be learned'), and omitted determiners ('is big issue', 'in future').",
+      "comment": "There are frequent grammatical slips including subject-verb agreement issues ('people speaks', 'They is', 'musics is', 'It make'), incorrect passive voice ('should be learned English'), and omitted articles or prepositions ('going other country', 'big issue', 'from internet and book'). However, the overall intended meaning remains comprehensible.",
       "name": "Grammatical Range and Accuracy"
     }
   },
   "tags": {
-    "tr": "Task addressed with clear personal stance, though practical proposals remain somewhat underdeveloped.",
+    "tr": "Clear opinion provided addressing English acquisition and local language preservation, but ideas could be further developed with concrete proposals.",
     "tr_details": [
       {
         "id": "tr_1",
         "content": "Schools and governments must do things to keep both languages living",
-        "comment": "The recommendation for preserving local languages is vague ('must do things'). Providing concrete solutions would raise the band.",
-        "revision": "Schools and governments should introduce bilingual curricula and cultural heritage funding to keep both languages alive.",
-        "type": "elaboration",
+        "comment": "The action required to preserve local languages is vague ('do things'); offering specific measures (e.g., bilingual curricula, community cultural funding) would substantially strengthen task achievement.",
+        "revision": "Schools and governments should implement bilingual curricula and cultural programs to preserve local languages",
+        "type": "Task Development",
         "band": 55,
-        "combined_tagged": "<tr_1>Schools and governments must do things to keep both languages living</tr_1>"
+        "combined_tagged": "Schools and governments must do things to keep both languages living [Task Development: vague proposal]"
       }
     ],
-    "cc": "Basic structure with clear paragraphing, but relies on straightforward transitions.",
+    "cc": "Basic sequencing and linking devices used appropriately, with a standard essay structure.",
     "cc_details": [
       {
         "id": "cc_1",
         "content": "That’s reason schools teach it. It make students more clever.",
-        "comment": "Abrupt sentences that can be joined smoothly to enhance sentence variety and cohesion.",
-        "revision": "For this reason, schools prioritize English, equipping students with valuable skills.",
-        "type": "linking",
-        "band": 52,
-        "combined_tagged": "<cc_1>That’s reason schools teach it. It make students more clever.</cc_1>"
+        "comment": "Sentences are short and choppy, leading to disjointed progression between ideas.",
+        "revision": "This is why schools prioritize it, helping students broaden their academic horizons.",
+        "type": "Sentence Flow",
+        "band": 50,
+        "combined_tagged": "That’s reason schools teach it. It make students more clever. [Sentence Flow: choppy syntax]"
       }
     ],
-    "lr": "Frequent word choice errors and misuse of uncountable nouns.",
+    "lr": "Sufficient vocabulary for simple arguments, but hindered by recurring lexical errors and calques.",
     "lr_details": [
       {
         "id": "lr_1",
-        "content": "learn many knowledges",
-        "comment": "'Knowledge' is an uncountable noun and cannot take 'many' or plural '-s'.",
-        "revision": "acquire a wealth of knowledge",
-        "type": "lexis_uncountable",
-        "band": 48,
-        "combined_tagged": "<lr_1>learn many knowledges</lr_1>"
+        "content": "knowledges",
+        "comment": "'Knowledge' is an uncountable noun in English and cannot take a plural suffix.",
+        "revision": "knowledge",
+        "type": "Uncountable Noun Error",
+        "band": 50,
+        "combined_tagged": "learn many [knowledges -> knowledge] from internet"
       },
       {
         "id": "lr_2",
-        "content": "musics is only in local language",
-        "comment": "'Music' is uncountable; 'local language' requires an article or plural form.",
-        "revision": "songs and musical traditions exist solely in indigenous languages",
-        "type": "lexis_word_choice",
+        "content": "musics",
+        "comment": "'Music' is an uncountable noun when referring to the art form or cultural songs collectively.",
+        "revision": "music",
+        "type": "Uncountable Noun Error",
         "band": 50,
-        "combined_tagged": "<lr_2>musics is only in local language</lr_2>"
+        "combined_tagged": "Some stories and [musics -> music] is only in local language."
       },
       {
         "id": "lr_3",
-        "content": "They are our personality.",
-        "comment": "'Personality' refers to individual temperament; 'cultural identity' or 'heritage' is the appropriate term.",
-        "revision": "They represent our cultural identity.",
-        "type": "lexis_collocation",
-        "band": 52,
-        "combined_tagged": "<lr_3>They are our personality.</lr_3>"
+        "content": "personality",
+        "comment": "'Personality' refers to individual behavioral traits. In this context, cultural 'identity' is the intended concept.",
+        "revision": "identity",
+        "type": "Lexical Choice",
+        "band": 50,
+        "combined_tagged": "They are our [personality -> identity]."
       }
     ],
-    "gr": "Subject-verb agreement and voice errors occur across several sentences.",
+    "gr": "Mix of simple and basic complex sentences with recurring agreement and structural mistakes.",
     "gr_details": [
       {
         "id": "gr_1",
-        "content": "everyone should be learned English since many people speaks it.",
-        "comment": "Incorrect passive construction ('should be learned') and subject-verb disagreement ('people speaks').",
-        "revision": "everyone should learn English since many people speak it.",
-        "type": "grammar_voice_agreement",
+        "content": "should be learned English",
+        "comment": "Incorrect passive construction where active voice is required.",
+        "revision": "should learn English",
+        "type": "Voice Error",
         "band": 48,
-        "combined_tagged": "<gr_1>everyone should be learned English since many people speaks it.</gr_1>"
+        "combined_tagged": "everyone [should be learned English -> should learn English]"
       },
       {
         "id": "gr_2",
-        "content": "They is part of culture and histories.",
-        "comment": "Subject-verb agreement error ('They is' -> 'They are').",
-        "revision": "They are part of our culture and history.",
-        "type": "grammar_agreement",
+        "content": "They is part of culture",
+        "comment": "Subject-verb agreement error with third-person plural subject 'They'.",
+        "revision": "They are part of culture",
+        "type": "Subject-Verb Agreement",
         "band": 48,
-        "combined_tagged": "<gr_2>They is part of culture and histories.</gr_2>"
+        "combined_tagged": "[They is -> They are] part of culture"
       }
     ],
-    "lr_gr": "Multiple lexical and grammatical inaccuracies identified at sentence level.",
+    "lr_gr": "Detailed evaluation of lexical and grammatical inaccuracies at sentence level.",
     "lr_gr_details": [
       {
         "sentence": "English is very important today and taught in many schools since it helps to students with job and going other country.",
@@ -139,20 +139,20 @@
           {
             "content": "helps to students",
             "revision": "helps students",
-            "comment": "'Help' takes a direct object without the preposition 'to'.",
-            "type": "grammar_preposition",
-            "band": 50,
+            "comment": "The verb 'help' takes a direct object without the preposition 'to'.",
+            "type": "Preposition Error",
+            "band": 48,
             "id": "inacc_1",
-            "combined_tagged": "<inacc_1>helps to students</inacc_1>"
+            "combined_tagged": "since it [helps to students -> helps students]"
           },
           {
             "content": "with job and going other country",
-            "revision": "find employment and travel to other countries",
-            "comment": "Missing prepositions and articles; faulty parallelism.",
-            "type": "grammar_syntax",
-            "band": 50,
+            "revision": "find jobs and travel abroad",
+            "comment": "Missing determiners and omitted preposition 'to' after 'going'.",
+            "type": "Grammatical Phrasing",
+            "band": 48,
             "id": "inacc_2",
-            "combined_tagged": "<inacc_2>with job and going other country</inacc_2>"
+            "combined_tagged": "[with job and going other country -> find jobs and travel abroad]"
           }
         ]
       },
@@ -160,31 +160,31 @@
         "sentence": "However, that local languagaes is not taught in schools is also big issue, because some local languages can get lost in future.",
         "inaccuracies": [
           {
-            "content": "local languagaes is not taught",
-            "revision": "local languages are not taught",
-            "comment": "Spelling error ('languagaes') and plural subject requires plural verb 'are'.",
-            "type": "grammar_agreement_spelling",
+            "content": "languagaes is",
+            "revision": "languages are",
+            "comment": "Spelling mistake ('languagaes') combined with subject-verb agreement failure.",
+            "type": "Spelling / Agreement",
             "band": 48,
             "id": "inacc_3",
-            "combined_tagged": "<inacc_3>local languagaes is not taught</inacc_3>"
+            "combined_tagged": "local [languagaes is -> languages are]"
           },
           {
-            "content": "is also big issue",
-            "revision": "is also a major issue",
-            "comment": "Missing singular indefinite article 'a'.",
-            "type": "grammar_article",
-            "band": 52,
+            "content": "big issue",
+            "revision": "a big issue",
+            "comment": "Missing indefinite article before singular countable noun phrase.",
+            "type": "Article Omission",
+            "band": 50,
             "id": "inacc_4",
-            "combined_tagged": "<inacc_4>is also big issue</inacc_4>"
+            "combined_tagged": "is also [big issue -> a big issue]"
           },
           {
             "content": "in future",
             "revision": "in the future",
-            "comment": "Missing definite article 'the'.",
-            "type": "grammar_article",
-            "band": 52,
+            "comment": "Missing definite article in the fixed temporal phrase.",
+            "type": "Article Omission",
+            "band": 50,
             "id": "inacc_5",
-            "combined_tagged": "<inacc_5>in future</inacc_5>"
+            "combined_tagged": "lost [in future -> in the future]"
           }
         ]
       },
@@ -194,20 +194,20 @@
           {
             "content": "should be learned English",
             "revision": "should learn English",
-            "comment": "Active voice is required instead of passive voice.",
-            "type": "grammar_voice",
+            "comment": "Erroneous passive voice formulation.",
+            "type": "Voice",
             "band": 48,
             "id": "inacc_6",
-            "combined_tagged": "<inacc_6>should be learned English</inacc_6>"
+            "combined_tagged": "everyone [should be learned English -> should learn English]"
           },
           {
-            "content": "many people speaks it",
-            "revision": "many people speak it",
-            "comment": "Plural noun 'people' requires plural verb 'speak'.",
-            "type": "grammar_agreement",
+            "content": "people speaks",
+            "revision": "people speak",
+            "comment": "Plural collective noun 'people' requires plural verb agreement.",
+            "type": "Subject-Verb Agreement",
             "band": 48,
             "id": "inacc_7",
-            "combined_tagged": "<inacc_7>many people speaks it</inacc_7>"
+            "combined_tagged": "many [people speaks -> people speak]"
           }
         ]
       },
@@ -217,11 +217,11 @@
           {
             "content": "talk English",
             "revision": "speak English",
-            "comment": "Collocation error: languages are 'spoken', not 'talked'.",
-            "type": "lexis_collocation",
-            "band": 52,
+            "comment": "Collocation error; languages are 'spoken', not 'talked'.",
+            "type": "Collocation",
+            "band": 50,
             "id": "inacc_8",
-            "combined_tagged": "<inacc_8>talk English</inacc_8>"
+            "combined_tagged": "workers who [talk English -> speak English]"
           }
         ]
       },
@@ -229,36 +229,45 @@
         "sentence": "Also, if you know English, you can learn many knowledges from internet and book.",
         "inaccuracies": [
           {
-            "content": "many knowledges",
-            "revision": "a great deal of knowledge",
-            "comment": "'Knowledge' is uncountable.",
-            "type": "grammar_countability",
-            "band": 48,
+            "content": "knowledges",
+            "revision": "knowledge",
+            "comment": "Uncountable noun formatted as plural.",
+            "type": "Countability",
+            "band": 50,
             "id": "inacc_9",
-            "combined_tagged": "<inacc_9>many knowledges</inacc_9>"
+            "combined_tagged": "learn many [knowledges -> knowledge]"
           },
           {
             "content": "from internet and book",
             "revision": "from the internet and books",
-            "comment": "Missing article for 'internet' and plural/article needed for 'book'.",
-            "type": "grammar_article",
-            "band": 50,
+            "comment": "Articles and plurals missing on nouns.",
+            "type": "Articles and Number",
+            "band": 48,
             "id": "inacc_10",
-            "combined_tagged": "<inacc_10>from internet and book</inacc_10>"
+            "combined_tagged": "from [internet and book -> the internet and books]"
           }
         ]
       },
       {
-        "sentence": "It make students more clever.",
+        "sentence": "That’s reason schools teach it. It make students more clever.",
         "inaccuracies": [
+          {
+            "content": "That’s reason",
+            "revision": "That is the reason",
+            "comment": "Omission of definite article.",
+            "type": "Article Omission",
+            "band": 50,
+            "id": "inacc_11",
+            "combined_tagged": "[That’s reason -> That is the reason]"
+          },
           {
             "content": "It make",
             "revision": "It makes",
-            "comment": "Third-person singular verb requires '-s'.",
-            "type": "grammar_agreement",
+            "comment": "Third-person singular 'make' requires '-s'.",
+            "type": "Subject-Verb Agreement",
             "band": 48,
-            "id": "inacc_11",
-            "combined_tagged": "<inacc_11>It make</inacc_11>"
+            "id": "inacc_12",
+            "combined_tagged": "[It make -> It makes]"
           }
         ]
       },
@@ -268,20 +277,43 @@
           {
             "content": "They is",
             "revision": "They are",
-            "comment": "Subject-verb agreement error.",
-            "type": "grammar_agreement",
+            "comment": "Agreement error with plural pronoun.",
+            "type": "Subject-Verb Agreement",
             "band": 48,
-            "id": "inacc_12",
-            "combined_tagged": "<inacc_12>They is</inacc_12>"
+            "id": "inacc_13",
+            "combined_tagged": "[They is -> They are]"
           },
           {
             "content": "histories",
             "revision": "history",
-            "comment": "In this context, 'history' is typically uncountable.",
-            "type": "lexis_countability",
-            "band": 52,
-            "id": "inacc_13",
-            "combined_tagged": "<inacc_13>histories</inacc_13>"
+            "comment": "In this abstract collective sense, 'history' is typically singular.",
+            "type": "Countability",
+            "band": 50,
+            "id": "inacc_14",
+            "combined_tagged": "culture and [histories -> history]"
+          }
+        ]
+      },
+      {
+        "sentence": "If we lost them, we forget our past times.",
+        "inaccuracies": [
+          {
+            "content": "If we lost them, we forget",
+            "revision": "If we lose them, we will forget",
+            "comment": "Inconsistent conditional tense sequence (First Conditional).",
+            "type": "Conditional Tense",
+            "band": 50,
+            "id": "inacc_15",
+            "combined_tagged": "[If we lost them, we forget -> If we lose them, we will forget]"
+          },
+          {
+            "content": "past times",
+            "revision": "past / heritage",
+            "comment": "Unnatural phrasing; 'past times' typically functions as an adjective phrase or means 'leisure activities' (pastimes).",
+            "type": "Collocation",
+            "band": 50,
+            "id": "inacc_16",
+            "combined_tagged": "our [past times -> past / heritage]"
           }
         ]
       },
@@ -290,52 +322,38 @@
         "inaccuracies": [
           {
             "content": "musics is",
-            "revision": "music is",
-            "comment": "'Music' is an uncountable noun.",
-            "type": "grammar_countability",
-            "band": 50,
-            "id": "inacc_14",
-            "combined_tagged": "<inacc_14>musics is</inacc_14>"
+            "revision": "music are",
+            "comment": "'Music' is uncountable, and compound subject ('stories and music') requires a plural verb.",
+            "type": "Countability and Agreement",
+            "band": 48,
+            "id": "inacc_17",
+            "combined_tagged": "[musics is -> music are]"
           },
           {
             "content": "in local language",
-            "revision": "in local languages",
-            "comment": "Noun requires pluralization or a determiner.",
-            "type": "grammar_determiner",
-            "band": 52,
-            "id": "inacc_15",
-            "combined_tagged": "<inacc_15>in local language</inacc_15>"
-          }
-        ]
-      },
-      {
-        "sentence": "They are our personality.",
-        "inaccuracies": [
-          {
-            "content": "personality",
-            "revision": "identity",
-            "comment": "Incorrect word choice; 'identity' fits the cultural context.",
-            "type": "lexis_word_choice",
-            "band": 52,
-            "id": "inacc_16",
-            "combined_tagged": "<inacc_16>personality</inacc_16>"
+            "revision": "in the local language",
+            "comment": "Missing definite article before singular countable noun.",
+            "type": "Article Omission",
+            "band": 50,
+            "id": "inacc_18",
+            "combined_tagged": "only in [local language -> the local language]"
           }
         ]
       }
     ]
   },
   "focus": {
-    "category": "Grammar and Vocabulary Accuracy",
-    "title": "Subject-Verb Agreement and Uncountable Nouns",
-    "explanation": "To move from B1 to B2, prioritize basic grammatical accuracy: ensure third-person singular and plural subjects agree with their verbs (e.g., 'people speak', 'it makes', 'they are'). In addition, learn standard non-count nouns such as 'knowledge', 'music', and 'information', which cannot take plural endings or words like 'many'."
+    "category": "Grammatical Accuracy",
+    "title": "Mastering Subject-Verb Agreement and Articles",
+    "explanation": "Your text demonstrates solid communicative intent, but frequent basic grammatical inaccuracies (such as 'they is', 'it make', 'people speaks', and missing articles like 'the internet' or 'a big issue') prevent your writing from progressing comfortably into the B2 band. Prioritize consistent noun-verb agreement checks and ensuring singular countable nouns have appropriate determiners."
   },
-  "n_words": 219,
-  "n_original_words": 219,
-  "rubric": "cefr",
-  "cminor_version": "2.0.0",
+  "n_words": 233,
+  "n_original_words": 233,
+  "rubric": "CEFR",
+  "cminor_version": "2.1.0",
   "allowed_remaining": {
-    "remaining_coins": 95.0,
-    "max_coins": 100.0,
+    "remaining_coins": 10.0,
+    "max_coins": 20.0,
     "next_refill": 3600
   }
 }
