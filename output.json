@@ -1,0 +1,3562 @@
+{
+  "band": 96,
+  "cefr": "C1",
+  "breakdown": {
+    "tr": {
+      "band": 100,
+      "breakdown": {
+        "addressing_prompt": 96,
+        "idea_development": 96,
+        "presenting_position": 99,
+        "format": 99
+      },
+      "raw": {},
+      "comment": "The response addresses all parts of the prompt with a clear position, though the methods for ensuring language survival could be more specific.",
+      "name": "Content"
+    },
+    "cc": {
+      "band": 90,
+      "breakdown": {
+        "flow_of_ideas": 96,
+        "cohesive_devices": 84,
+        "transition": 96,
+        "paragraphing": 99
+      },
+      "raw": {},
+      "comment": "The essay is logically organized with clear paragraphing, but the use of cohesive devices is somewhat repetitive and basic.",
+      "name": "Organisation"
+    },
+    "lr": {
+      "band": 90,
+      "breakdown": {
+        "range_of_vocabulary": 84,
+        "accuracy": 84,
+        "spelling": 96
+      },
+      "raw": {},
+      "comment": "The vocabulary is sufficient to convey the main ideas, but there are frequent errors in word choice and some spelling issues like \"languagaes\".",
+      "stats": {
+        "sum_token": {
+          "values": [
+            0,
+            180,
+            29,
+            24,
+            7,
+            0,
+            0,
+            1
+          ]
+        },
+        "cumsum_token": {
+          "values": [
+            0,
+            0.7469,
+            0.8672,
+            0.9668,
+            0.9959,
+            0.9959,
+            0.9959,
+            1
+          ],
+          "constants": [
+            2.1694653728986255,
+            0.000010000000000000003,
+            16.421420516967896,
+            15.759818570234271
+          ]
+        },
+        "sum_type": {
+          "values": [
+            0,
+            77,
+            22,
+            16,
+            7,
+            0,
+            0,
+            1
+          ]
+        },
+        "cumsum_type": {
+          "values": [
+            0,
+            0.626,
+            0.8049,
+            0.935,
+            0.9919,
+            0.9919,
+            0.9919,
+            1
+          ],
+          "constants": [
+            0.8665549724564469,
+            0.000010000000000000003,
+            9.651141917515643,
+            8.052852992801906
+          ]
+        },
+        "level": {
+          "fit_curve": [
+            1.849693985466454
+          ],
+          "ninety_five": [
+            1.8312499999999994
+          ],
+          "fit_error": [
+            0.02318628630213387
+          ]
+        }
+      },
+      "sentences": {
+        "0": {
+          "id": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21
+          ],
+          "word": [
+            "English",
+            "is",
+            "very",
+            "important",
+            "today",
+            "and",
+            "taught",
+            "in",
+            "many",
+            "schools",
+            "since",
+            "it",
+            "helps",
+            "to",
+            "students",
+            "with",
+            "job",
+            "and",
+            "going",
+            "other",
+            "country",
+            "."
+          ],
+          "lemma": [
+            "english",
+            "be",
+            "very",
+            "important",
+            "today",
+            "and",
+            "teach",
+            "in",
+            "many",
+            "school",
+            "since",
+            "it",
+            "help",
+            "to",
+            "student",
+            "with",
+            "job",
+            "and",
+            "go",
+            "other",
+            "country",
+            "."
+          ],
+          "pos": [
+            "PROPN",
+            "VERB",
+            "ADV",
+            "ADJ",
+            "NOUN",
+            "CONJ",
+            "VERB",
+            "ADP",
+            "ADJ",
+            "NOUN",
+            "CONJ",
+            "PRON",
+            "VERB",
+            "PART",
+            "NOUN",
+            "ADP",
+            "NOUN",
+            "CONJ",
+            "VERB",
+            "ADJ",
+            "NOUN",
+            "PUNCT"
+          ],
+          "whitespace": [
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            false,
+            true
+          ],
+          "weight": [
+            0.20242436352102514,
+            0,
+            0,
+            0.11233736730094292,
+            0.08834769887054571,
+            0,
+            0.11099584590078439,
+            0,
+            0.09015043453376528,
+            0.07387048920573391,
+            0.05145270019438366,
+            0,
+            0.05362939663839785,
+            0,
+            0.05085700069211677,
+            0,
+            0.07605739215056954,
+            0,
+            0.03659261863369467,
+            0,
+            0.05328469235804016,
+            0
+          ],
+          "CEFR_vocabulary": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            2,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            -2
+          ],
+          "form": [
+            "is",
+            "does"
+          ],
+          "tense1": [
+            "do",
+            "do"
+          ],
+          "tense2": [
+            "ind. (present)",
+            "ind. (present)"
+          ],
+          "CEFR_tense": [
+            0,
+            0
+          ],
+          "tense_span": [
+            [
+              1
+            ],
+            [
+              12
+            ]
+          ],
+          "clause_form": [
+            "since"
+          ],
+          "clause": [
+            "advcl"
+          ],
+          "clause_span": [
+            [
+              10,
+              11,
+              12,
+              13,
+              14,
+              15,
+              16,
+              17,
+              18,
+              19,
+              20
+            ]
+          ],
+          "CEFR_clause": [
+            2
+          ],
+          "CEFR_sentence": 2.299999952316284
+        },
+        "1": {
+          "id": [
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45,
+            46
+          ],
+          "word": [
+            "However",
+            ",",
+            "that",
+            "local",
+            "languagaes",
+            "is",
+            "not",
+            "taught",
+            "in",
+            "schools",
+            "is",
+            "also",
+            "big",
+            "issue",
+            ",",
+            "because",
+            "some",
+            "local",
+            "languages",
+            "can",
+            "get",
+            "lost",
+            "in",
+            "future",
+            "."
+          ],
+          "lemma": [
+            "however",
+            ",",
+            "that",
+            "local",
+            "languagae",
+            "be",
+            "not",
+            "teach",
+            "in",
+            "school",
+            "be",
+            "also",
+            "big",
+            "issue",
+            ",",
+            "because",
+            "some",
+            "local",
+            "language",
+            "can",
+            "get",
+            "lose",
+            "in",
+            "future",
+            "."
+          ],
+          "pos": [
+            "ADV",
+            "PUNCT",
+            "CONJ",
+            "ADJ",
+            "NOUN",
+            "AUX",
+            "ADV",
+            "VERB",
+            "ADP",
+            "NOUN",
+            "VERB",
+            "ADV",
+            "ADJ",
+            "NOUN",
+            "PUNCT",
+            "CONJ",
+            "DET",
+            "ADJ",
+            "NOUN",
+            "AUX",
+            "AUX",
+            "VERB",
+            "ADP",
+            "NOUN",
+            "PUNCT"
+          ],
+          "whitespace": [
+            false,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            false,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            false,
+            false
+          ],
+          "weight": [
+            0.08412058812560538,
+            0,
+            0,
+            0.05305103508591448,
+            0.10846864846345196,
+            0,
+            0,
+            0.08165860093114041,
+            0,
+            0.09835497944083978,
+            0,
+            0.028364040369935485,
+            0.07308221556792957,
+            0.10548510381809546,
+            0,
+            0,
+            0,
+            0.0783889473660269,
+            0.0677543098363679,
+            0,
+            0.05515279618001375,
+            0.08573561237250761,
+            0,
+            0.08038312244217131,
+            0
+          ],
+          "CEFR_vocabulary": [
+            1,
+            -2,
+            1,
+            2,
+            6,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            2,
+            -2,
+            0,
+            0,
+            2,
+            0,
+            0,
+            0,
+            1,
+            0,
+            1,
+            -2
+          ],
+          "form": [
+            "is done",
+            "is",
+            "can get done"
+          ],
+          "tense1": [
+            "be done",
+            "do",
+            "be done"
+          ],
+          "tense2": [
+            "ind. (present)",
+            "ind. (present)",
+            "inf."
+          ],
+          "CEFR_tense": [
+            2,
+            0,
+            2
+          ],
+          "tense_span": [
+            [
+              27,
+              29
+            ],
+            [
+              32
+            ],
+            [
+              41,
+              42,
+              43
+            ]
+          ],
+          "clause_form": [
+            "that",
+            "because"
+          ],
+          "clause": [
+            "ncl",
+            "advcl"
+          ],
+          "clause_span": [
+            [
+              24,
+              25,
+              26,
+              27,
+              28,
+              29,
+              30,
+              31
+            ],
+            [
+              37,
+              38,
+              39,
+              40,
+              41,
+              42,
+              43,
+              44,
+              45
+            ]
+          ],
+          "CEFR_clause": [
+            4,
+            0
+          ],
+          "CEFR_sentence": 2.9000000953674316
+        },
+        "2": {
+          "id": [
+            47,
+            48,
+            49,
+            50,
+            51,
+            52,
+            53,
+            54,
+            55,
+            56,
+            57,
+            58,
+            59,
+            60
+          ],
+          "word": [
+            "\n\n",
+            "I",
+            "think",
+            "everyone",
+            "should",
+            "be",
+            "learned",
+            "English",
+            "since",
+            "many",
+            "people",
+            "speaks",
+            "it",
+            "."
+          ],
+          "lemma": [
+            "\n\n",
+            "I",
+            "think",
+            "everyone",
+            "should",
+            "be",
+            "learn",
+            "english",
+            "since",
+            "many",
+            "people",
+            "speak",
+            "it",
+            "."
+          ],
+          "pos": [
+            "SPACE",
+            "PRON",
+            "VERB",
+            "PRON",
+            "AUX",
+            "AUX",
+            "VERB",
+            "PROPN",
+            "CONJ",
+            "ADJ",
+            "NOUN",
+            "VERB",
+            "PRON",
+            "PUNCT"
+          ],
+          "whitespace": [
+            false,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            false,
+            true
+          ],
+          "weight": [
+            0,
+            0.09606900205127425,
+            0.10936101880143924,
+            0.14062897483107467,
+            0,
+            0,
+            0.13674154933547608,
+            0.14390269827238356,
+            0.06507419449036282,
+            0.10900516193725866,
+            0.11706886394867566,
+            0.08214853633205507,
+            0,
+            0
+          ],
+          "CEFR_vocabulary": [
+            -2,
+            0,
+            0,
+            1,
+            1,
+            0,
+            0,
+            0,
+            2,
+            0,
+            0,
+            0,
+            0,
+            -2
+          ],
+          "form": [
+            "do",
+            "should be done",
+            "does"
+          ],
+          "tense1": [
+            "do",
+            "be done",
+            "do"
+          ],
+          "tense2": [
+            "ind. (present)",
+            "inf.",
+            "ind. (present)"
+          ],
+          "CEFR_tense": [
+            0,
+            2,
+            0
+          ],
+          "tense_span": [
+            [
+              49
+            ],
+            [
+              51,
+              52,
+              53
+            ],
+            [
+              58
+            ]
+          ],
+          "clause_form": [
+            "(that)",
+            "since"
+          ],
+          "clause": [
+            "ncl",
+            "advcl"
+          ],
+          "clause_span": [
+            [
+              50,
+              51,
+              52,
+              53,
+              54
+            ],
+            [
+              55,
+              56,
+              57,
+              58,
+              59
+            ]
+          ],
+          "CEFR_clause": [
+            2,
+            2
+          ],
+          "CEFR_sentence": 1.7000000476837158
+        },
+        "3": {
+          "id": [
+            61,
+            62,
+            63,
+            64,
+            65,
+            66,
+            67,
+            68,
+            69,
+            70,
+            71,
+            72
+          ],
+          "word": [
+            "For",
+            "example",
+            ",",
+            "many",
+            "companies",
+            "look",
+            "for",
+            "workers",
+            "who",
+            "talk",
+            "English",
+            "."
+          ],
+          "lemma": [
+            "for",
+            "example",
+            ",",
+            "many",
+            "company",
+            "look",
+            "for",
+            "worker",
+            "who",
+            "talk",
+            "english",
+            "."
+          ],
+          "pos": [
+            "ADP",
+            "NOUN",
+            "PUNCT",
+            "ADJ",
+            "NOUN",
+            "VERB",
+            "ADP",
+            "NOUN",
+            "PRON",
+            "VERB",
+            "PROPN",
+            "PUNCT"
+          ],
+          "whitespace": [
+            true,
+            false,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            false,
+            true
+          ],
+          "weight": [
+            0,
+            0.12341613918619906,
+            0,
+            0.10236148721052378,
+            0.15774554146238148,
+            0.126714529931706,
+            0,
+            0.16041819517685982,
+            0,
+            0.13143780852751025,
+            0.19790629850481958,
+            0
+          ],
+          "CEFR_vocabulary": [
+            0,
+            0,
+            -2,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            -2
+          ],
+          "form": [
+            "do",
+            "do"
+          ],
+          "tense1": [
+            "do",
+            "do"
+          ],
+          "tense2": [
+            "ind. (present)",
+            "ind. (present)"
+          ],
+          "CEFR_tense": [
+            0,
+            0
+          ],
+          "tense_span": [
+            [
+              66
+            ],
+            [
+              70
+            ]
+          ],
+          "clause_form": [
+            "who"
+          ],
+          "clause": [
+            "relcl"
+          ],
+          "clause_span": [
+            [
+              69,
+              70,
+              71
+            ]
+          ],
+          "CEFR_clause": [
+            1
+          ],
+          "CEFR_sentence": 1.7000000476837158
+        },
+        "4": {
+          "id": [
+            73,
+            74,
+            75,
+            76,
+            77,
+            78
+          ],
+          "word": [
+            "It",
+            "is",
+            "the",
+            "global",
+            "language",
+            "."
+          ],
+          "lemma": [
+            "it",
+            "be",
+            "the",
+            "global",
+            "language",
+            "."
+          ],
+          "pos": [
+            "PRON",
+            "VERB",
+            "DET",
+            "ADJ",
+            "NOUN",
+            "PUNCT"
+          ],
+          "whitespace": [
+            true,
+            true,
+            true,
+            true,
+            false,
+            true
+          ],
+          "weight": [
+            0,
+            0,
+            0,
+            0.4788954878334413,
+            0.5211045121665587,
+            0
+          ],
+          "CEFR_vocabulary": [
+            0,
+            0,
+            0,
+            3,
+            0,
+            -2
+          ],
+          "form": [
+            "is"
+          ],
+          "tense1": [
+            "do"
+          ],
+          "tense2": [
+            "ind. (present)"
+          ],
+          "CEFR_tense": [
+            0
+          ],
+          "tense_span": [
+            [
+              74
+            ]
+          ],
+          "clause_form": [],
+          "clause": [],
+          "CEFR_clause": [],
+          "clause_span": [],
+          "CEFR_sentence": 1.399999976158142
+        },
+        "5": {
+          "id": [
+            79,
+            80,
+            81,
+            82,
+            83,
+            84,
+            85,
+            86,
+            87,
+            88,
+            89,
+            90,
+            91,
+            92,
+            93,
+            94,
+            95
+          ],
+          "word": [
+            "Also",
+            ",",
+            "if",
+            "you",
+            "know",
+            "English",
+            ",",
+            "you",
+            "can",
+            "learn",
+            "many",
+            "knowledges",
+            "from",
+            "internet",
+            "and",
+            "book",
+            "."
+          ],
+          "lemma": [
+            "also",
+            ",",
+            "if",
+            "you",
+            "know",
+            "english",
+            ",",
+            "you",
+            "can",
+            "learn",
+            "many",
+            "knowledge",
+            "from",
+            "internet",
+            "and",
+            "book",
+            "."
+          ],
+          "pos": [
+            "ADV",
+            "PUNCT",
+            "CONJ",
+            "PRON",
+            "VERB",
+            "PROPN",
+            "PUNCT",
+            "PRON",
+            "AUX",
+            "VERB",
+            "ADJ",
+            "NOUN",
+            "ADP",
+            "NOUN",
+            "CONJ",
+            "NOUN",
+            "PUNCT"
+          ],
+          "whitespace": [
+            false,
+            true,
+            true,
+            true,
+            true,
+            false,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            false,
+            true
+          ],
+          "weight": [
+            0.16074096017757064,
+            0,
+            0,
+            0,
+            0.0868265235889696,
+            0.14901808111371306,
+            0,
+            0,
+            0,
+            0.08312169193209726,
+            0.11207813742585317,
+            0.17032851327125303,
+            0,
+            0.1417177796850174,
+            0,
+            0.09616831280552583,
+            0
+          ],
+          "CEFR_vocabulary": [
+            0,
+            -2,
+            1,
+            0,
+            0,
+            0,
+            -2,
+            0,
+            0,
+            0,
+            0,
+            2,
+            0,
+            0,
+            0,
+            0,
+            -2
+          ],
+          "form": [
+            "do",
+            "can do"
+          ],
+          "tense1": [
+            "do",
+            "do"
+          ],
+          "tense2": [
+            "ind. (present)",
+            "inf."
+          ],
+          "CEFR_tense": [
+            0,
+            0.5
+          ],
+          "tense_span": [
+            [
+              83
+            ],
+            [
+              87,
+              88
+            ]
+          ],
+          "clause_form": [
+            "if"
+          ],
+          "clause": [
+            "advcl"
+          ],
+          "clause_span": [
+            [
+              81,
+              82,
+              83,
+              84
+            ]
+          ],
+          "CEFR_clause": [
+            1
+          ],
+          "CEFR_sentence": 1.7999999523162842
+        },
+        "6": {
+          "id": [
+            96,
+            97,
+            98,
+            99,
+            100,
+            101,
+            102
+          ],
+          "word": [
+            "That",
+            "'s",
+            "reason",
+            "schools",
+            "teach",
+            "it",
+            "."
+          ],
+          "lemma": [
+            "that",
+            "be",
+            "reason",
+            "school",
+            "teach",
+            "it",
+            "."
+          ],
+          "pos": [
+            "PRON",
+            "VERB",
+            "NOUN",
+            "NOUN",
+            "VERB",
+            "PRON",
+            "PUNCT"
+          ],
+          "whitespace": [
+            false,
+            true,
+            true,
+            true,
+            true,
+            false,
+            true
+          ],
+          "weight": [
+            0,
+            0,
+            0.30766349812221677,
+            0.33717827194797567,
+            0.3551582299298076,
+            0,
+            0
+          ],
+          "CEFR_vocabulary": [
+            1,
+            0,
+            1,
+            0,
+            0,
+            0,
+            -2
+          ],
+          "form": [
+            "is",
+            "do"
+          ],
+          "tense1": [
+            "do",
+            "do"
+          ],
+          "tense2": [
+            "ind. (present)",
+            "ind. (present)"
+          ],
+          "CEFR_tense": [
+            0,
+            0
+          ],
+          "tense_span": [
+            [
+              97
+            ],
+            [
+              100
+            ]
+          ],
+          "clause_form": [
+            "(that)"
+          ],
+          "clause": [
+            "relcl"
+          ],
+          "clause_span": [
+            [
+              99,
+              100,
+              101
+            ]
+          ],
+          "CEFR_clause": [
+            1
+          ],
+          "CEFR_sentence": 1.2999999523162842
+        },
+        "7": {
+          "id": [
+            103,
+            104,
+            105,
+            106,
+            107,
+            108
+          ],
+          "word": [
+            "It",
+            "make",
+            "students",
+            "more",
+            "clever",
+            "."
+          ],
+          "lemma": [
+            "it",
+            "make",
+            "student",
+            "more",
+            "clever",
+            "."
+          ],
+          "pos": [
+            "PRON",
+            "VERB",
+            "NOUN",
+            "ADV",
+            "ADJ",
+            "PUNCT"
+          ],
+          "whitespace": [
+            true,
+            true,
+            true,
+            true,
+            false,
+            true
+          ],
+          "weight": [
+            0,
+            0.3423393212402905,
+            0.4052750649804597,
+            0,
+            0.2523856137792498,
+            0
+          ],
+          "CEFR_vocabulary": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            -2
+          ],
+          "form": [
+            "do"
+          ],
+          "tense1": [
+            "do"
+          ],
+          "tense2": [
+            "ind. (present)"
+          ],
+          "CEFR_tense": [
+            0
+          ],
+          "tense_span": [
+            [
+              104
+            ]
+          ],
+          "clause_form": [],
+          "clause": [],
+          "CEFR_clause": [],
+          "clause_span": [],
+          "CEFR_sentence": 1.100000023841858
+        },
+        "8": {
+          "id": [
+            109,
+            110,
+            111,
+            112,
+            113,
+            114,
+            115,
+            116,
+            117,
+            118,
+            119,
+            120,
+            121,
+            122,
+            123,
+            124,
+            125,
+            126
+          ],
+          "word": [
+            "English",
+            "is",
+            "also",
+            "important",
+            "because",
+            "it",
+            "allows",
+            "people",
+            "to",
+            "travel",
+            "and",
+            "communicate",
+            "with",
+            "others",
+            "from",
+            "different",
+            "countries",
+            "."
+          ],
+          "lemma": [
+            "english",
+            "be",
+            "also",
+            "important",
+            "because",
+            "it",
+            "allow",
+            "people",
+            "to",
+            "travel",
+            "and",
+            "communicate",
+            "with",
+            "other",
+            "from",
+            "different",
+            "country",
+            "."
+          ],
+          "pos": [
+            "PROPN",
+            "VERB",
+            "ADV",
+            "ADJ",
+            "CONJ",
+            "PRON",
+            "VERB",
+            "NOUN",
+            "PART",
+            "VERB",
+            "CONJ",
+            "VERB",
+            "ADP",
+            "NOUN",
+            "ADP",
+            "ADJ",
+            "NOUN",
+            "PUNCT"
+          ],
+          "whitespace": [
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            false,
+            true
+          ],
+          "weight": [
+            0.1862081885063178,
+            0,
+            0.10568683715522437,
+            0.15638230299424274,
+            0,
+            0,
+            0.06504734001471005,
+            0.1358308607397834,
+            0,
+            0.09078148408392361,
+            0,
+            0.08335267491015502,
+            0,
+            0,
+            0,
+            0.08845285215883432,
+            0.08825745943680874,
+            0
+          ],
+          "CEFR_vocabulary": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            2,
+            0,
+            0,
+            0,
+            0,
+            2,
+            0,
+            2,
+            0,
+            0,
+            0,
+            -2
+          ],
+          "form": [
+            "is",
+            "does",
+            "to do",
+            "to do"
+          ],
+          "tense1": [
+            "do",
+            "do",
+            "do",
+            "do"
+          ],
+          "tense2": [
+            "ind. (present)",
+            "ind. (present)",
+            "inf.",
+            "inf."
+          ],
+          "CEFR_tense": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "tense_span": [
+            [
+              110
+            ],
+            [
+              115
+            ],
+            [
+              117,
+              118
+            ],
+            [
+              117,
+              120
+            ]
+          ],
+          "clause_form": [
+            "because"
+          ],
+          "clause": [
+            "advcl"
+          ],
+          "clause_span": [
+            [
+              113,
+              114,
+              115
+            ]
+          ],
+          "CEFR_clause": [
+            0
+          ],
+          "CEFR_sentence": 2.200000047683716
+        },
+        "9": {
+          "id": [
+            127,
+            128,
+            129,
+            130,
+            131,
+            132,
+            133,
+            134,
+            135,
+            136,
+            137,
+            138,
+            139,
+            140,
+            141
+          ],
+          "word": [
+            "Without",
+            "knowing",
+            "English",
+            ",",
+            "it",
+            "is",
+            "difficult",
+            "to",
+            "connect",
+            "with",
+            "people",
+            "around",
+            "the",
+            "world",
+            "."
+          ],
+          "lemma": [
+            "without",
+            "know",
+            "english",
+            ",",
+            "it",
+            "be",
+            "difficult",
+            "to",
+            "connect",
+            "with",
+            "people",
+            "around",
+            "the",
+            "world",
+            "."
+          ],
+          "pos": [
+            "ADP",
+            "VERB",
+            "PROPN",
+            "PUNCT",
+            "PRON",
+            "VERB",
+            "ADJ",
+            "PART",
+            "VERB",
+            "ADP",
+            "NOUN",
+            "ADP",
+            "DET",
+            "NOUN",
+            "PUNCT"
+          ],
+          "whitespace": [
+            true,
+            true,
+            false,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            false,
+            false
+          ],
+          "weight": [
+            0.07955545763526256,
+            0.12472168205008904,
+            0.13419255407588487,
+            0,
+            0,
+            0,
+            0.17152848196078652,
+            0,
+            0.1252906801258128,
+            0,
+            0.13826068688298684,
+            0.08239818834782663,
+            0,
+            0.14405226892135073,
+            0
+          ],
+          "CEFR_vocabulary": [
+            1,
+            0,
+            0,
+            -2,
+            0,
+            0,
+            0,
+            0,
+            2,
+            0,
+            0,
+            1,
+            0,
+            0,
+            -2
+          ],
+          "form": [
+            "doing",
+            "is",
+            "to do"
+          ],
+          "tense1": [
+            "do",
+            "do",
+            "do"
+          ],
+          "tense2": [
+            "ger.",
+            "ind. (present)",
+            "inf."
+          ],
+          "CEFR_tense": [
+            1,
+            0,
+            0
+          ],
+          "tense_span": [
+            [
+              128
+            ],
+            [
+              132
+            ],
+            [
+              134,
+              135
+            ]
+          ],
+          "clause_form": [],
+          "clause": [],
+          "CEFR_clause": [],
+          "clause_span": [],
+          "CEFR_sentence": 1.7000000476837158
+        },
+        "10": {
+          "id": [
+            142,
+            143,
+            144,
+            145,
+            146,
+            147,
+            148,
+            149,
+            150
+          ],
+          "word": [
+            "\n\n",
+            "But",
+            "local",
+            "languages",
+            "are",
+            "very",
+            "serious",
+            "too",
+            "."
+          ],
+          "lemma": [
+            "\n\n",
+            "but",
+            "local",
+            "language",
+            "be",
+            "very",
+            "serious",
+            "too",
+            "."
+          ],
+          "pos": [
+            "SPACE",
+            "CONJ",
+            "ADJ",
+            "NOUN",
+            "VERB",
+            "ADV",
+            "ADJ",
+            "ADV",
+            "PUNCT"
+          ],
+          "whitespace": [
+            false,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            false,
+            true
+          ],
+          "weight": [
+            0,
+            0,
+            0.30782692676974516,
+            0.33853652519549443,
+            0,
+            0,
+            0.3536365480347604,
+            0,
+            0
+          ],
+          "CEFR_vocabulary": [
+            -2,
+            0,
+            2,
+            0,
+            0,
+            0,
+            2,
+            0,
+            -2
+          ],
+          "form": [
+            "are"
+          ],
+          "tense1": [
+            "do"
+          ],
+          "tense2": [
+            "ind. (present)"
+          ],
+          "CEFR_tense": [
+            0
+          ],
+          "tense_span": [
+            [
+              146
+            ]
+          ],
+          "clause_form": [
+            "but"
+          ],
+          "clause": [
+            "cc"
+          ],
+          "clause_span": [
+            [
+              143,
+              144,
+              145,
+              146
+            ]
+          ],
+          "CEFR_clause": [
+            0
+          ],
+          "CEFR_sentence": 1.7999999523162842
+        },
+        "11": {
+          "id": [
+            151,
+            152,
+            153,
+            154,
+            155,
+            156,
+            157,
+            158
+          ],
+          "word": [
+            "They",
+            "is",
+            "part",
+            "of",
+            "culture",
+            "and",
+            "histories",
+            "."
+          ],
+          "lemma": [
+            "they",
+            "be",
+            "part",
+            "of",
+            "culture",
+            "and",
+            "history",
+            "."
+          ],
+          "pos": [
+            "PRON",
+            "VERB",
+            "NOUN",
+            "ADP",
+            "NOUN",
+            "CONJ",
+            "NOUN",
+            "PUNCT"
+          ],
+          "whitespace": [
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            false,
+            true
+          ],
+          "weight": [
+            0,
+            0,
+            0.2861224168993205,
+            0,
+            0.3530073090100296,
+            0,
+            0.3608702740906499,
+            0
+          ],
+          "CEFR_vocabulary": [
+            0,
+            0,
+            0,
+            0,
+            2,
+            0,
+            1,
+            -2
+          ],
+          "form": [
+            "is"
+          ],
+          "tense1": [
+            "do"
+          ],
+          "tense2": [
+            "ind. (present)"
+          ],
+          "CEFR_tense": [
+            0
+          ],
+          "tense_span": [
+            [
+              152
+            ]
+          ],
+          "clause_form": [],
+          "clause": [],
+          "CEFR_clause": [],
+          "clause_span": [],
+          "CEFR_sentence": 1.7000000476837158
+        },
+        "12": {
+          "id": [
+            159,
+            160,
+            161,
+            162,
+            163,
+            164,
+            165,
+            166,
+            167,
+            168,
+            169
+          ],
+          "word": [
+            "If",
+            "we",
+            "lost",
+            "them",
+            ",",
+            "we",
+            "forget",
+            "our",
+            "past",
+            "times",
+            "."
+          ],
+          "lemma": [
+            "if",
+            "we",
+            "lose",
+            "them",
+            ",",
+            "we",
+            "forget",
+            "our",
+            "past",
+            "time",
+            "."
+          ],
+          "pos": [
+            "CONJ",
+            "PRON",
+            "VERB",
+            "PRON",
+            "PUNCT",
+            "PRON",
+            "VERB",
+            "PRON",
+            "ADJ",
+            "NOUN",
+            "PUNCT"
+          ],
+          "whitespace": [
+            true,
+            true,
+            true,
+            false,
+            true,
+            true,
+            true,
+            true,
+            true,
+            false,
+            true
+          ],
+          "weight": [
+            0,
+            0,
+            0.28947934127570096,
+            0,
+            0,
+            0,
+            0.2536465660072982,
+            0,
+            0.269257500672476,
+            0.18761659204452483,
+            0
+          ],
+          "CEFR_vocabulary": [
+            1,
+            0,
+            1,
+            0,
+            -2,
+            0,
+            0,
+            0,
+            2,
+            0,
+            -2
+          ],
+          "form": [
+            "did",
+            "do"
+          ],
+          "tense1": [
+            "do",
+            "do"
+          ],
+          "tense2": [
+            "ind. (past)",
+            "ind. (present)"
+          ],
+          "CEFR_tense": [
+            0.5,
+            0
+          ],
+          "tense_span": [
+            [
+              161
+            ],
+            [
+              165
+            ]
+          ],
+          "clause_form": [
+            "if"
+          ],
+          "clause": [
+            "advcl"
+          ],
+          "clause_span": [
+            [
+              159,
+              160,
+              161,
+              162
+            ]
+          ],
+          "CEFR_clause": [
+            1
+          ],
+          "CEFR_sentence": 1.7000000476837158
+        },
+        "13": {
+          "id": [
+            170,
+            171,
+            172,
+            173,
+            174,
+            175,
+            176,
+            177,
+            178,
+            179
+          ],
+          "word": [
+            "Some",
+            "stories",
+            "and",
+            "musics",
+            "is",
+            "only",
+            "in",
+            "local",
+            "language",
+            "."
+          ],
+          "lemma": [
+            "some",
+            "story",
+            "and",
+            "music",
+            "be",
+            "only",
+            "in",
+            "local",
+            "language",
+            "."
+          ],
+          "pos": [
+            "DET",
+            "NOUN",
+            "CONJ",
+            "NOUN",
+            "VERB",
+            "ADV",
+            "ADP",
+            "ADJ",
+            "NOUN",
+            "PUNCT"
+          ],
+          "whitespace": [
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            false,
+            true
+          ],
+          "weight": [
+            0,
+            0.2512630989712266,
+            0,
+            0.270413131428683,
+            0,
+            0,
+            0,
+            0.24289004165613756,
+            0.23543372794395281,
+            0
+          ],
+          "CEFR_vocabulary": [
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            2,
+            0,
+            -2
+          ],
+          "form": [
+            "is"
+          ],
+          "tense1": [
+            "do"
+          ],
+          "tense2": [
+            "ind. (present)"
+          ],
+          "CEFR_tense": [
+            0
+          ],
+          "tense_span": [
+            [
+              174
+            ]
+          ],
+          "clause_form": [],
+          "clause": [],
+          "CEFR_clause": [],
+          "clause_span": [],
+          "CEFR_sentence": 1.399999976158142
+        },
+        "14": {
+          "id": [
+            180,
+            181,
+            182,
+            183,
+            184,
+            185,
+            186,
+            187,
+            188,
+            189,
+            190,
+            191,
+            192,
+            193,
+            194
+          ],
+          "word": [
+            "It",
+            "is",
+            "very",
+            "difficult",
+            "to",
+            "change",
+            "them",
+            "into",
+            "English",
+            "because",
+            "they",
+            "lose",
+            "original",
+            "meanings",
+            "."
+          ],
+          "lemma": [
+            "it",
+            "be",
+            "very",
+            "difficult",
+            "to",
+            "change",
+            "them",
+            "into",
+            "english",
+            "because",
+            "they",
+            "lose",
+            "original",
+            "meaning",
+            "."
+          ],
+          "pos": [
+            "PRON",
+            "VERB",
+            "ADV",
+            "ADJ",
+            "PART",
+            "VERB",
+            "PRON",
+            "ADP",
+            "PROPN",
+            "CONJ",
+            "PRON",
+            "VERB",
+            "ADJ",
+            "NOUN",
+            "PUNCT"
+          ],
+          "whitespace": [
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            false,
+            true
+          ],
+          "weight": [
+            0,
+            0,
+            0,
+            0.1687635661884654,
+            0,
+            0.16498454393261816,
+            0,
+            0,
+            0.19952266549272127,
+            0,
+            0,
+            0.13674978526912998,
+            0.1537884775217515,
+            0.17619096159531367,
+            0
+          ],
+          "CEFR_vocabulary": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            2,
+            2,
+            -2
+          ],
+          "form": [
+            "is",
+            "to do",
+            "do"
+          ],
+          "tense1": [
+            "do",
+            "do",
+            "do"
+          ],
+          "tense2": [
+            "ind. (present)",
+            "inf.",
+            "ind. (present)"
+          ],
+          "CEFR_tense": [
+            0,
+            0,
+            0
+          ],
+          "tense_span": [
+            [
+              181
+            ],
+            [
+              184,
+              185
+            ],
+            [
+              191
+            ]
+          ],
+          "clause_form": [
+            "because"
+          ],
+          "clause": [
+            "advcl"
+          ],
+          "clause_span": [
+            [
+              189,
+              190,
+              191,
+              192,
+              193
+            ]
+          ],
+          "CEFR_clause": [
+            0
+          ],
+          "CEFR_sentence": 2.4000000953674316
+        },
+        "15": {
+          "id": [
+            195,
+            196,
+            197,
+            198,
+            199,
+            200,
+            201,
+            202,
+            203,
+            204,
+            205,
+            206,
+            207
+          ],
+          "word": [
+            "Local",
+            "languages",
+            "also",
+            "help",
+            "people",
+            "feel",
+            "connected",
+            "to",
+            "their",
+            "community",
+            "and",
+            "traditions",
+            "."
+          ],
+          "lemma": [
+            "local",
+            "language",
+            "also",
+            "help",
+            "people",
+            "feel",
+            "connected",
+            "to",
+            "their",
+            "community",
+            "and",
+            "tradition",
+            "."
+          ],
+          "pos": [
+            "ADJ",
+            "NOUN",
+            "ADV",
+            "VERB",
+            "NOUN",
+            "VERB",
+            "ADJ",
+            "ADP",
+            "PRON",
+            "NOUN",
+            "CONJ",
+            "NOUN",
+            "PUNCT"
+          ],
+          "whitespace": [
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            false,
+            true
+          ],
+          "weight": [
+            0.13421802781259948,
+            0.15200146447001783,
+            0.10843249028752977,
+            0.10079468851159452,
+            0.09349543148382339,
+            0.08452026127765924,
+            0.107324577449656,
+            0,
+            0,
+            0.10597728189063978,
+            0,
+            0.11323577681647999,
+            0
+          ],
+          "CEFR_vocabulary": [
+            2,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            3,
+            0,
+            3,
+            -2
+          ],
+          "form": [
+            "do",
+            "do"
+          ],
+          "tense1": [
+            "do",
+            "do"
+          ],
+          "tense2": [
+            "ind. (present)",
+            "inf."
+          ],
+          "CEFR_tense": [
+            0,
+            0
+          ],
+          "tense_span": [
+            [
+              198
+            ],
+            [
+              200
+            ]
+          ],
+          "clause_form": [],
+          "clause": [],
+          "CEFR_clause": [],
+          "clause_span": [],
+          "CEFR_sentence": 2.4000000953674316
+        },
+        "16": {
+          "id": [
+            208,
+            209,
+            210,
+            211,
+            212,
+            213,
+            214,
+            215,
+            216,
+            217,
+            218,
+            219,
+            220,
+            221,
+            222,
+            223,
+            224,
+            225
+          ],
+          "word": [
+            "If",
+            "we",
+            "stop",
+            "speaking",
+            "these",
+            "languages",
+            ",",
+            "we",
+            "could",
+            "lose",
+            "important",
+            "knowledge",
+            "about",
+            "our",
+            "ancestors",
+            "and",
+            "history",
+            "."
+          ],
+          "lemma": [
+            "if",
+            "we",
+            "stop",
+            "speak",
+            "these",
+            "language",
+            ",",
+            "we",
+            "could",
+            "lose",
+            "important",
+            "knowledge",
+            "about",
+            "our",
+            "ancestor",
+            "and",
+            "history",
+            "."
+          ],
+          "pos": [
+            "CONJ",
+            "PRON",
+            "VERB",
+            "VERB",
+            "DET",
+            "NOUN",
+            "PUNCT",
+            "PRON",
+            "AUX",
+            "VERB",
+            "ADJ",
+            "NOUN",
+            "ADP",
+            "PRON",
+            "NOUN",
+            "CONJ",
+            "NOUN",
+            "PUNCT"
+          ],
+          "whitespace": [
+            true,
+            true,
+            true,
+            true,
+            true,
+            false,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            false,
+            false
+          ],
+          "weight": [
+            0,
+            0,
+            0.09168769524548011,
+            0.11412774197813103,
+            0,
+            0.17305233581554122,
+            0,
+            0,
+            0.08336501082159446,
+            0.10582350514192852,
+            0.0799344465389466,
+            0.09814365462402201,
+            0,
+            0,
+            0.13549703947319558,
+            0,
+            0.1183685703611605,
+            0
+          ],
+          "CEFR_vocabulary": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            -2,
+            0,
+            1,
+            1,
+            0,
+            2,
+            0,
+            0,
+            3,
+            0,
+            1,
+            -2
+          ],
+          "form": [
+            "do",
+            "doing",
+            "could do"
+          ],
+          "tense1": [
+            "do",
+            "do",
+            "do"
+          ],
+          "tense2": [
+            "ind. (present)",
+            "ger.",
+            "inf."
+          ],
+          "CEFR_tense": [
+            0,
+            1,
+            1
+          ],
+          "tense_span": [
+            [
+              210
+            ],
+            [
+              211
+            ],
+            [
+              216,
+              217
+            ]
+          ],
+          "clause_form": [
+            "if"
+          ],
+          "clause": [
+            "advcl"
+          ],
+          "clause_span": [
+            [
+              208,
+              209,
+              210,
+              211,
+              212,
+              213
+            ]
+          ],
+          "CEFR_clause": [
+            1
+          ],
+          "CEFR_sentence": 2.5
+        },
+        "17": {
+          "id": [
+            226,
+            227,
+            228,
+            229,
+            230,
+            231,
+            232,
+            233,
+            234,
+            235,
+            236,
+            237,
+            238,
+            239,
+            240,
+            241,
+            242,
+            243,
+            244,
+            245
+          ],
+          "word": [
+            "\n\n",
+            "In",
+            "conclusion",
+            ",",
+            "English",
+            "is",
+            "good",
+            "for",
+            "job",
+            "and",
+            "learning",
+            ",",
+            "but",
+            "we",
+            "must",
+            "not",
+            "ignore",
+            "local",
+            "languages",
+            "."
+          ],
+          "lemma": [
+            "\n\n",
+            "in",
+            "conclusion",
+            ",",
+            "english",
+            "be",
+            "good",
+            "for",
+            "job",
+            "and",
+            "learning",
+            ",",
+            "but",
+            "we",
+            "must",
+            "not",
+            "ignore",
+            "local",
+            "language",
+            "."
+          ],
+          "pos": [
+            "SPACE",
+            "ADP",
+            "NOUN",
+            "PUNCT",
+            "PROPN",
+            "VERB",
+            "ADJ",
+            "ADP",
+            "NOUN",
+            "CONJ",
+            "NOUN",
+            "PUNCT",
+            "CONJ",
+            "PRON",
+            "AUX",
+            "ADV",
+            "VERB",
+            "ADJ",
+            "NOUN",
+            "PUNCT"
+          ],
+          "whitespace": [
+            false,
+            true,
+            false,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            false,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            false,
+            true
+          ],
+          "weight": [
+            0,
+            0,
+            0.12427614514868048,
+            0,
+            0.15098593368598784,
+            0,
+            0.13266261644123187,
+            0,
+            0.11477690644453852,
+            0,
+            0.1050550971191337,
+            0,
+            0,
+            0,
+            0.04919710881569938,
+            0,
+            0.08886711385958371,
+            0.11038753699927721,
+            0.12379154148586731,
+            0
+          ],
+          "CEFR_vocabulary": [
+            -2,
+            0,
+            2,
+            -2,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            3,
+            -2,
+            0,
+            0,
+            1,
+            0,
+            3,
+            2,
+            0,
+            -2
+          ],
+          "form": [
+            "is",
+            "must do"
+          ],
+          "tense1": [
+            "do",
+            "do"
+          ],
+          "tense2": [
+            "ind. (present)",
+            "inf."
+          ],
+          "CEFR_tense": [
+            0,
+            0.5
+          ],
+          "tense_span": [
+            [
+              231
+            ],
+            [
+              240,
+              242
+            ]
+          ],
+          "clause_form": [
+            "but"
+          ],
+          "clause": [
+            "cc"
+          ],
+          "clause_span": [
+            [
+              238,
+              242
+            ]
+          ],
+          "CEFR_clause": [
+            0
+          ],
+          "CEFR_sentence": 2.299999952316284
+        },
+        "18": {
+          "id": [
+            246,
+            247,
+            248,
+            249,
+            250
+          ],
+          "word": [
+            "They",
+            "are",
+            "our",
+            "personality",
+            "."
+          ],
+          "lemma": [
+            "they",
+            "be",
+            "our",
+            "personality",
+            "."
+          ],
+          "pos": [
+            "PRON",
+            "VERB",
+            "PRON",
+            "NOUN",
+            "PUNCT"
+          ],
+          "whitespace": [
+            true,
+            true,
+            true,
+            false,
+            true
+          ],
+          "weight": [
+            0,
+            0,
+            0,
+            1,
+            0
+          ],
+          "CEFR_vocabulary": [
+            0,
+            0,
+            0,
+            3,
+            -2
+          ],
+          "form": [
+            "are"
+          ],
+          "tense1": [
+            "do"
+          ],
+          "tense2": [
+            "ind. (present)"
+          ],
+          "CEFR_tense": [
+            0
+          ],
+          "tense_span": [
+            [
+              247
+            ]
+          ],
+          "clause_form": [],
+          "clause": [],
+          "CEFR_clause": [],
+          "clause_span": [],
+          "CEFR_sentence": 1.399999976158142
+        },
+        "19": {
+          "id": [
+            251,
+            252,
+            253,
+            254,
+            255,
+            256,
+            257,
+            258,
+            259,
+            260,
+            261,
+            262,
+            263,
+            264,
+            265,
+            266,
+            267,
+            268,
+            269,
+            270,
+            271,
+            272,
+            273,
+            274
+          ],
+          "word": [
+            "Schools",
+            "and",
+            "governments",
+            "must",
+            "do",
+            "things",
+            "to",
+            "keep",
+            "both",
+            "languages",
+            "living",
+            ",",
+            "so",
+            "we",
+            "can",
+            "protect",
+            "culture",
+            "and",
+            "also",
+            "grow",
+            "in",
+            "modern",
+            "life",
+            "."
+          ],
+          "lemma": [
+            "school",
+            "and",
+            "government",
+            "must",
+            "do",
+            "thing",
+            "to",
+            "keep",
+            "both",
+            "language",
+            "live",
+            ",",
+            "so",
+            "we",
+            "can",
+            "protect",
+            "culture",
+            "and",
+            "also",
+            "grow",
+            "in",
+            "modern",
+            "life",
+            "."
+          ],
+          "pos": [
+            "NOUN",
+            "CONJ",
+            "NOUN",
+            "AUX",
+            "VERB",
+            "NOUN",
+            "PART",
+            "VERB",
+            "DET",
+            "NOUN",
+            "VERB",
+            "PUNCT",
+            "CONJ",
+            "PRON",
+            "AUX",
+            "VERB",
+            "NOUN",
+            "CONJ",
+            "ADV",
+            "VERB",
+            "ADP",
+            "ADJ",
+            "NOUN",
+            "PUNCT"
+          ],
+          "whitespace": [
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            false,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            false,
+            false
+          ],
+          "weight": [
+            0.14564849912414218,
+            0,
+            0.11011448902446587,
+            0.0664104930296415,
+            0,
+            0.06986302164711543,
+            0,
+            0.058588187672357996,
+            0,
+            0.1407658430843117,
+            0.05153007341176463,
+            0,
+            0,
+            0,
+            0,
+            0.07095513359549663,
+            0.0751766589942056,
+            0,
+            0.04464702433271451,
+            0.05793026529549972,
+            0,
+            0.05809511504146005,
+            0.0502751957468242,
+            0
+          ],
+          "CEFR_vocabulary": [
+            0,
+            0,
+            2,
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            -2,
+            1,
+            0,
+            0,
+            2,
+            2,
+            0,
+            0,
+            1,
+            0,
+            1,
+            0,
+            -2
+          ],
+          "form": [
+            "must do",
+            "to do",
+            "doing",
+            "can do",
+            "can do"
+          ],
+          "tense1": [
+            "do",
+            "do",
+            "do",
+            "do",
+            "do"
+          ],
+          "tense2": [
+            "inf.",
+            "inf.",
+            "ger.",
+            "inf.",
+            "inf."
+          ],
+          "CEFR_tense": [
+            0.5,
+            0,
+            1,
+            0.5,
+            0.5
+          ],
+          "tense_span": [
+            [
+              254,
+              255
+            ],
+            [
+              257,
+              258
+            ],
+            [
+              261
+            ],
+            [
+              265,
+              266
+            ],
+            [
+              265,
+              270
+            ]
+          ],
+          "clause_form": [
+            "so",
+            "so"
+          ],
+          "clause": [
+            "advcl",
+            "advcl"
+          ],
+          "clause_span": [
+            [
+              263,
+              264,
+              265,
+              266,
+              267,
+              268
+            ],
+            [
+              269,
+              270,
+              271,
+              272,
+              273
+            ]
+          ],
+          "CEFR_clause": [
+            0,
+            0
+          ],
+          "CEFR_sentence": 2.5999999046325684
+        }
+      },
+      "name": "Vocabulary"
+    },
+    "gr": {
+      "band": 90,
+      "breakdown": {
+        "range_of_structures": 84,
+        "accuracy": 84,
+        "punctuation": 96
+      },
+      "raw": {},
+      "comment": "The student attempts a range of structures, but subject-verb agreement and tense errors are frequent throughout the text.",
+      "name": "Grammar"
+    }
+  },
+  "tags": {
+    "tr": "<cc_0><tr_0><cc_0>English is very important today and taught in many schools since it helps <gr_0>to students</gr_0> with job and <gr_1>going other country</gr_1>. However, that local <lr_0>languagaes</lr_0> is not taught in schools is also big issue, because some local languages can get lost in future.</cc_0></tr_0>\n\nI think everyone should <gr_2>be learned</gr_2> English since many people <gr_3>speaks</gr_3> it. For example, many companies look for workers who <gr_4>talk</gr_4> English. It is the global language. Also, if you know English, you can learn <lr_1>many knowledges from internet and book</lr_1>. <cc_1>That’s reason</cc_1> schools teach it. It <gr_5>make</gr_5> students more clever. <tr_1></tr_1>English is also important because it allows people to travel and communicate with others from different countries. Without knowing English, it is difficult to connect with people around the world.\n\n<tr_2>But local languages are very <lr_2>serious</lr_2> too. <gr_6>They is part of culture and histories. If we lost them, we forget our past times. Some stories and musics is only in local language.</gr_6> It is very difficult to change them into English because they lose original meanings. Local languages also help people feel connected to their community and traditions. If we stop speaking these languages, we could lose important knowledge about our ancestors and history.</tr_2><tr_3></tr_3>\n\n<tr_4>In conclusion, English is good for job and learning, but we must not ignore local languages. They are our <lr_4>personality</lr_4>. Schools and governments must do things to keep both languages living, so we can protect culture and also grow in modern life.</tr_4>",
+    "tr_details": [
+      {
+        "id": "tr_0",
+        "content": "English is very important today and taught in many schools since it helps to students with job and going other country. However, that local languagaes is not taught in schools is also big issue, because some local languages can get lost in future.",
+        "comment": "The introduction is a bit short. While it introduces the topic, adding a clearer thesis statement that directly answers both parts of the prompt (the importance of English and the survival of local languages) would improve the task fulfillment.",
+        "revision": "English is very important today and is taught in many schools since it helps students with finding a job and going to other countries. However, the fact that local languages are not taught in many schools is also a big issue, because some local languages could die out in the future.",
+        "type": "weak thesis statement",
+        "band": 6,
+        "combined_tagged": "English is very important today and <b>is</b> taught in many schools since it helps <s>to</s> students with <b>finding</b> <b>a</b> job and going <b>to</b> other <s>country.</s> <b>countries.</b> However, <b>the</b> <b>fact</b> that local <s>languagaes</s> <b>languages</b> <s>is</s> <b>are</b> not taught in <b>many</b> schools is also <b>a</b> big issue, because some local languages <s>can</s> <s>get</s> <s>lost</s> <b>could</b> <b>die</b> <b>out</b> in <b>the</b> future."
+      },
+      {
+        "id": "tr_1",
+        "content": "[After \"It make students more clever.\" as a new sentence]",
+        "comment": "The prompt asks \"is it important for everyone to learn English?\". While the paragraph lists benefits, it doesn't explicitly state a conclusion for \"everyone\". Adding this sentence directly addresses the prompt's specific question.",
+        "revision": "Therefore, learning English is essential for everyone to participate in the modern world.",
+        "type": "addressing prompt directly",
+        "band": 7,
+        "combined_tagged": "[After \"It make students more clever.\" as a new sentence]<s></s> <b>Therefore,</b> <b>learning</b> <b>English</b> <b>is</b> <b>essential</b> <b>for</b> <b>everyone</b> <b>to</b> <b>participate</b> <b>in</b> <b>the</b> <b>modern</b> <b>world.</b>"
+      },
+      {
+        "id": "tr_2",
+        "content": "But local languages are very serious too. They is part of culture and histories. If we lost them, we forget our past times. Some stories and musics is only in local language. It is very difficult to change them into English because they lose original meanings. Local languages also help people feel connected to their community and traditions. If we stop speaking these languages, we could lose important knowledge about our ancestors and history.",
+        "comment": "This paragraph explains why local languages are important, but the prompt also asks \"how\" we should ensure their survival. This section needs more specific methods to fulfill the task requirements.",
+        "revision": "However, protecting local languages is also vital because they are part of our culture and history. If we lose them, we forget our past. Some stories and music only exist in local languages, and it is difficult to translate them without losing their original meaning. Local languages also help people feel connected to their community and traditions. If we stop speaking these languages, we could lose important knowledge about our ancestors.",
+        "type": "missing \"how\" details",
+        "band": 6,
+        "combined_tagged": "<s>But</s> <b>However,</b> <b>protecting</b> local languages <b>is</b> <b>also</b> <b>vital</b> <b>because</b> <b>they</b> are <s>very</s> <s>serious</s> <s>too.</s> <s>They</s> <s>is</s> part of <b>our</b> culture and <s>histories.</s> <b>history.</b> If we <s>lost</s> <b>lose</b> them, we forget our <s>past</s> <b>past.</b> <s>times.</s> Some stories and <s>musics</s> <b>music</b> <s>is</s> only <b>exist</b> in local <s>language.</s> <b>languages,</b> <s>It</s> <b>and</b> <b>it</b> is <s>very</s> difficult to <s>change</s> <b>translate</b> them <b>without</b> <b>losing</b> <b>their</b> <s>into</s> <s>English</s> <s>because</s> <s>they</s> <s>lose</s> original <s>meanings.</s> <b>meaning.</b> Local languages also help people feel connected to their community and traditions. If we stop speaking these languages, we could lose important knowledge about our <s>ancestors</s> <b>ancestors.</b> <s>and</s> <s>history.</s>"
+      },
+      {
+        "id": "tr_3",
+        "content": "[After \"lose important knowledge about our ancestors.\" as a new paragraph]",
+        "comment": "The prompt specifically asks \"how\" we should ensure the survival of local languages. The original text only explained why they are important. Adding these specific methods is necessary to fully answer the prompt.",
+        "revision": "To ensure their survival, governments should include local languages in the school curriculum alongside English. Furthermore, families should be encouraged to speak their native tongue at home with children. Festivals and cultural events can also help promote the use of these languages in the community.",
+        "type": "missing task requirement",
+        "band": 6,
+        "combined_tagged": "[After \"lose important knowledge about our ancestors.\" as a new paragraph]<s></s> <b>To</b> <b>ensure</b> <b>their</b> <b>survival,</b> <b>governments</b> <b>should</b> <b>include</b> <b>local</b> <b>languages</b> <b>in</b> <b>the</b> <b>school</b> <b>curriculum</b> <b>alongside</b> <b>English.</b> <b>Furthermore,</b> <b>families</b> <b>should</b> <b>be</b> <b>encouraged</b> <b>to</b> <b>speak</b> <b>their</b> <b>native</b> <b>tongue</b> <b>at</b> <b>home</b> <b>with</b> <b>children.</b> <b>Festivals</b> <b>and</b> <b>cultural</b> <b>events</b> <b>can</b> <b>also</b> <b>help</b> <b>promote</b> <b>the</b> <b>use</b> <b>of</b> <b>these</b> <b>languages</b> <b>in</b> <b>the</b> <b>community.</b>"
+      },
+      {
+        "id": "tr_4",
+        "content": "In conclusion, English is good for job and learning, but we must not ignore local languages. They are our personality. Schools and governments must do things to keep both languages living, so we can protect culture and also grow in modern life.",
+        "comment": "The original essay is only about 180 words, which is well below the 250-word requirement for a standard task 2 essay. The added details in the body and a slightly more developed conclusion help reach the required length and depth.",
+        "revision": "In conclusion, while learning English is essential for global communication and career success, we must not ignore local languages. They represent our identity and history. Governments and schools should take active steps to teach both, so we can protect our cultural heritage while still participating in modern life.",
+        "type": "under length requirement",
+        "band": 5,
+        "combined_tagged": "In conclusion, <b>while</b> <b>learning</b> English is <s>good</s> <b>essential</b> for <s>job</s> <b>global</b> <b>communication</b> and <s>learning,</s> <s>but</s> <b>career</b> <b>success,</b> we must not ignore local languages. They <s>are</s> <b>represent</b> our <b>identity</b> <s>personality.</s> <s>Schools</s> and <b>history.</b> <s>governments</s> <b>Governments</b> <s>must</s> <s>do</s> <s>things</s> <b>and</b> <b>schools</b> <b>should</b> <b>take</b> <b>active</b> <b>steps</b> to <s>keep</s> <b>teach</b> <s>both</s> <b>both,</b> <s>languages</s> <s>living,</s> so we can protect <b>our</b> <s>culture</s> <b>cultural</b> <s>and</s> <s>also</s> <s>grow</s> <b>heritage</b> <b>while</b> <b>still</b> <b>participating</b> in modern life."
+      }
+    ],
+    "cc": "<cc_0><tr_0><cc_0>English is very important today and taught in many schools since it helps <gr_0>to students</gr_0> with job and <gr_1>going other country</gr_1>. However, that local <lr_0>languagaes</lr_0> is not taught in schools is also big issue, because some local languages can get lost in future.</cc_0></tr_0>\n\nI think everyone should <gr_2>be learned</gr_2> English since many people <gr_3>speaks</gr_3> it. For example, many companies look for workers who <gr_4>talk</gr_4> English. It is the global language. Also, if you know English, you can learn <lr_1>many knowledges from internet and book</lr_1>. <cc_1>That’s reason</cc_1> schools teach it. It <gr_5>make</gr_5> students more clever. <tr_1></tr_1>English is also important because it allows people to travel and communicate with others from different countries. Without knowing English, it is difficult to connect with people around the world.\n\n<tr_2>But local languages are very <lr_2>serious</lr_2> too. <gr_6>They is part of culture and histories. If we lost them, we forget our past times. Some stories and musics is only in local language.</gr_6> It is very difficult to change them into English because they lose original meanings. Local languages also help people feel connected to their community and traditions. If we stop speaking these languages, we could lose important knowledge about our ancestors and history.</tr_2><tr_3></tr_3>\n\n<tr_4>In conclusion, English is good for job and learning, but we must not ignore local languages. They are our <lr_4>personality</lr_4>. Schools and governments must do things to keep both languages living, so we can protect culture and also grow in modern life.</tr_4>",
+    "cc_details": [
+      {
+        "id": "cc_0",
+        "content": "English is very important today and taught in many schools since it helps to students with job and going other country. However, that local languagaes is not taught in schools is also big issue, because some local languages can get lost in future.",
+        "comment": "The introduction needs better flow. Using \"the fact that\" makes the \"however\" clause more structurally sound. Minor pluralization and article additions improve the overall cohesion of the opening statement.",
+        "revision": "English is very important today and taught in many schools since it helps students with jobs and going to other countries. However, the fact that local languages are not taught in schools is also a big issue, because some local languages can get lost in the future.",
+        "type": "sentence structure",
+        "band": 6,
+        "combined_tagged": "English is very important today and taught in many schools since it helps <s>to</s> students with <s>job</s> <b>jobs</b> and going <b>to</b> other <s>country.</s> <b>countries.</b> However, <b>the</b> <b>fact</b> that local <s>languagaes</s> <b>languages</b> <s>is</s> <b>are</b> not taught in schools is also <b>a</b> big issue, because some local languages can get lost in <b>the</b> future."
+      },
+      {
+        "id": "cc_1",
+        "content": "That’s reason schools teach it.",
+        "comment": "Adding a determiner and a relative pronoun creates a smoother transition between the benefit of the language and the school's action.",
+        "revision": "That’s the reason why schools teach it.",
+        "type": "missing transition",
+        "band": 6,
+        "combined_tagged": "That’s <b>the</b> reason <b>why</b> schools teach it."
+      }
+    ],
+    "lr": "<cc_0><tr_0><cc_0>English is very important today and taught in many schools since it helps <gr_0>to students</gr_0> with job and <gr_1>going other country</gr_1>. However, that local <lr_0>languagaes</lr_0> is not taught in schools is also big issue, because some local languages can get lost in future.</cc_0></tr_0>\n\nI think everyone should <gr_2>be learned</gr_2> English since many people <gr_3>speaks</gr_3> it. For example, many companies look for workers who <gr_4>talk</gr_4> English. It is the global language. Also, if you know English, you can learn <lr_1>many knowledges from internet and book</lr_1>. <cc_1>That’s reason</cc_1> schools teach it. It <gr_5>make</gr_5> students more clever. <tr_1></tr_1>English is also important because it allows people to travel and communicate with others from different countries. Without knowing English, it is difficult to connect with people around the world.\n\n<tr_2>But local languages are very <lr_2>serious</lr_2> too. <gr_6>They is part of culture and histories. If we lost them, we forget our past times. Some stories and musics is only in local language.</gr_6> It is very difficult to change them into English because they lose original meanings. Local languages also help people feel connected to their community and traditions. If we stop speaking these languages, we could lose important knowledge about our ancestors and history.</tr_2><tr_3></tr_3>\n\n<tr_4>In conclusion, English is good for job and learning, but we must not ignore local languages. They are our <lr_4>personality</lr_4>. Schools and governments must do things to keep both languages living, so we can protect culture and also grow in modern life.</tr_4>",
+    "lr_details": [
+      {
+        "id": "lr_0",
+        "content": "languagaes",
+        "comment": "Spelling mistake.",
+        "revision": "languages",
+        "type": "spelling",
+        "band": 6,
+        "combined_tagged": "<s>languagaes</s> <b>languages</b>"
+      },
+      {
+        "id": "lr_1",
+        "content": "many knowledges from internet and book.",
+        "comment": "\"Knowledge\" is an uncountable noun. \"Internet\" usually takes a definite article, and \"book\" should be plural to match the general context.",
+        "revision": "much knowledge from the internet and books.",
+        "type": "uncountable noun",
+        "band": 6,
+        "combined_tagged": "<s>many</s> <b>much</b> <s>knowledges</s> <b>knowledge</b> from <b>the</b> internet and <s>book.</s> <b>books.</b>"
+      },
+      {
+        "id": "lr_2",
+        "content": "serious",
+        "comment": "\"Serious\" is used to describe a person's mood or a grave situation. When talking about value or status, \"important\" or \"significant\" is more appropriate.",
+        "revision": "important",
+        "type": "inaccurate word choice",
+        "band": 7,
+        "combined_tagged": "<s>serious</s> <b>important</b>"
+      },
+      {
+        "id": "lr_3",
+        "content": "musics",
+        "comment": "\"Music\" is an uncountable noun.",
+        "revision": "music",
+        "type": "uncountable noun",
+        "band": 6,
+        "combined_tagged": "<s>musics</s> <b>music</b>"
+      },
+      {
+        "id": "lr_4",
+        "content": "personality",
+        "comment": "\"Personality\" refers to a person's character. \"Identity\" refers to the cultural characteristics of a group of people or a nation.",
+        "revision": "identity",
+        "type": "inaccurate word choice",
+        "band": 7,
+        "combined_tagged": "<s>personality</s> <b>identity</b>"
+      }
+    ],
+    "gr": "<cc_0><tr_0><cc_0>English is very important today and taught in many schools since it helps <gr_0>to students</gr_0> with job and <gr_1>going other country</gr_1>. However, that local <lr_0>languagaes</lr_0> is not taught in schools is also big issue, because some local languages can get lost in future.</cc_0></tr_0>\n\nI think everyone should <gr_2>be learned</gr_2> English since many people <gr_3>speaks</gr_3> it. For example, many companies look for workers who <gr_4>talk</gr_4> English. It is the global language. Also, if you know English, you can learn <lr_1>many knowledges from internet and book</lr_1>. <cc_1>That’s reason</cc_1> schools teach it. It <gr_5>make</gr_5> students more clever. <tr_1></tr_1>English is also important because it allows people to travel and communicate with others from different countries. Without knowing English, it is difficult to connect with people around the world.\n\n<tr_2>But local languages are very <lr_2>serious</lr_2> too. <gr_6>They is part of culture and histories. If we lost them, we forget our past times. Some stories and musics is only in local language.</gr_6> It is very difficult to change them into English because they lose original meanings. Local languages also help people feel connected to their community and traditions. If we stop speaking these languages, we could lose important knowledge about our ancestors and history.</tr_2><tr_3></tr_3>\n\n<tr_4>In conclusion, English is good for job and learning, but we must not ignore local languages. They are our <lr_4>personality</lr_4>. Schools and governments must do things to keep both languages living, so we can protect culture and also grow in modern life.</tr_4>",
+    "gr_details": [
+      {
+        "id": "gr_0",
+        "content": "helps to students",
+        "comment": "The verb \"help\" is followed directly by the object, not by the preposition \"to\".",
+        "revision": "helps students",
+        "type": "unnecessary preposition",
+        "band": 7,
+        "combined_tagged": "helps <s>to</s> students"
+      },
+      {
+        "id": "gr_1",
+        "content": "going other country.",
+        "comment": "The verb \"go\" requires the preposition \"to\". \"Country\" should be plural as it refers to travel in general.",
+        "revision": "going to other countries.",
+        "type": "missing preposition",
+        "band": 6,
+        "combined_tagged": "going <b>to</b> other <s>country.</s> <b>countries.</b>"
+      },
+      {
+        "id": "gr_2",
+        "content": "everyone should be learned English",
+        "comment": "The original uses a passive construction (\"be learned\") incorrectly. It should be the active voice.",
+        "revision": "everyone should learn English",
+        "type": "wrong voice",
+        "band": 6,
+        "combined_tagged": "everyone should <s>be</s> <s>learned</s> <b>learn</b> English"
+      },
+      {
+        "id": "gr_3",
+        "content": "many people speaks it.",
+        "comment": "Subject-verb agreement: \"people\" is plural, so the verb should be \"speak\".",
+        "revision": "many people speak it.",
+        "type": "subject-verb agreement",
+        "band": 6,
+        "combined_tagged": "many people <s>speaks</s> <b>speak</b> it."
+      },
+      {
+        "id": "gr_4",
+        "content": "who talk English.",
+        "comment": "When referring to the ability to use a language, the verb \"speak\" is used rather than \"talk\".",
+        "revision": "who speak English.",
+        "type": "awkward collocation",
+        "band": 7,
+        "combined_tagged": "who <s>talk</s> <b>speak</b> English."
+      },
+      {
+        "id": "gr_5",
+        "content": "It make students",
+        "comment": "Subject-verb agreement: \"It\" is a singular third-person pronoun.",
+        "revision": "It makes students",
+        "type": "subject-verb agreement",
+        "band": 6,
+        "combined_tagged": "It <s>make</s> <b>makes</b> students"
+      },
+      {
+        "id": "gr_6",
+        "content": "They is part of culture and histories.",
+        "comment": "Subject-verb agreement for \"they\" and \"are\". Also, \"history\" is usually uncountable when referring to the general concept of the past.",
+        "revision": "They are part of culture and history.",
+        "type": "subject-verb agreement",
+        "band": 6,
+        "combined_tagged": "They <s>is</s> <b>are</b> part of culture and <s>histories.</s> <b>history.</b>"
+      },
+      {
+        "id": "gr_7",
+        "content": "If we lost them, we forget our past times.",
+        "comment": "The first conditional is better here for a possible future. \"Past times\" is a bit awkward; \"the past\" or \"our history\" is more natural.",
+        "revision": "If we lose them, we will forget our past.",
+        "type": "verb tense",
+        "band": 6,
+        "combined_tagged": "If we <s>lost</s> <b>lose</b> them, we <b>will</b> forget our <s>past</s> <b>past.</b> <s>times.</s>"
+      },
+      {
+        "id": "gr_8",
+        "content": "musics is",
+        "comment": "Even if the noun were plural, the verb would need to match. Since \"music\" is uncountable, it stays singular.",
+        "revision": "music is",
+        "type": "subject-verb agreement",
+        "band": 6,
+        "combined_tagged": "<s>musics</s> <b>music</b> is"
+      }
+    ],
+    "lr_gr": "<cc_0><tr_0><cc_0>English is very important today and taught in many schools since it helps <gr_0>to students</gr_0> with job and <gr_1>going other country</gr_1>. However, that local <lr_0>languagaes</lr_0> is not taught in schools is also big issue, because some local languages can get lost in future.</cc_0></tr_0>\n\nI think everyone should <gr_2>be learned</gr_2> English since many people <gr_3>speaks</gr_3> it. For example, many companies look for workers who <gr_4>talk</gr_4> English. It is the global language. Also, if you know English, you can learn <lr_1>many knowledges from internet and book</lr_1>. <cc_1>That’s reason</cc_1> schools teach it. It <gr_5>make</gr_5> students more clever. <tr_1></tr_1>English is also important because it allows people to travel and communicate with others from different countries. Without knowing English, it is difficult to connect with people around the world.\n\n<tr_2>But local languages are very <lr_2>serious</lr_2> too. <gr_6>They is part of culture and histories. If we lost them, we forget our past times. Some stories and musics is only in local language.</gr_6> It is very difficult to change them into English because they lose original meanings. Local languages also help people feel connected to their community and traditions. If we stop speaking these languages, we could lose important knowledge about our ancestors and history.</tr_2><tr_3></tr_3>\n\n<tr_4>In conclusion, English is good for job and learning, but we must not ignore local languages. They are our <lr_4>personality</lr_4>. Schools and governments must do things to keep both languages living, so we can protect culture and also grow in modern life.</tr_4>",
+    "lr_gr_details": [
+      {
+        "sentence": "",
+        "inaccuracies": [
+          {
+            "content": "languagaes",
+            "revision": "languages",
+            "comment": "Spelling mistake.",
+            "type": "spelling",
+            "band": 6,
+            "id": "lr_0",
+            "combined_tagged": "<s>languagaes</s> <b>languages</b>"
+          },
+          {
+            "content": "many knowledges from internet and book.",
+            "revision": "much knowledge from the internet and books.",
+            "comment": "\"Knowledge\" is an uncountable noun. \"Internet\" usually takes a definite article, and \"book\" should be plural to match the general context.",
+            "type": "uncountable noun",
+            "band": 6,
+            "id": "lr_1",
+            "combined_tagged": "<s>many</s> <b>much</b> <s>knowledges</s> <b>knowledge</b> from <b>the</b> internet and <s>book.</s> <b>books.</b>"
+          },
+          {
+            "content": "serious",
+            "revision": "important",
+            "comment": "\"Serious\" is used to describe a person's mood or a grave situation. When talking about value or status, \"important\" or \"significant\" is more appropriate.",
+            "type": "inaccurate word choice",
+            "band": 7,
+            "id": "lr_2",
+            "combined_tagged": "<s>serious</s> <b>important</b>"
+          },
+          {
+            "content": "musics",
+            "revision": "music",
+            "comment": "\"Music\" is an uncountable noun.",
+            "type": "uncountable noun",
+            "band": 6,
+            "id": "lr_3",
+            "combined_tagged": "<s>musics</s> <b>music</b>"
+          },
+          {
+            "content": "personality",
+            "revision": "identity",
+            "comment": "\"Personality\" refers to a person's character. \"Identity\" refers to the cultural characteristics of a group of people or a nation.",
+            "type": "inaccurate word choice",
+            "band": 7,
+            "id": "lr_4",
+            "combined_tagged": "<s>personality</s> <b>identity</b>"
+          },
+          {
+            "content": "helps to students",
+            "revision": "helps students",
+            "comment": "The verb \"help\" is followed directly by the object, not by the preposition \"to\".",
+            "type": "unnecessary preposition",
+            "band": 7,
+            "id": "gr_0",
+            "combined_tagged": "helps <s>to</s> students"
+          },
+          {
+            "content": "going other country.",
+            "revision": "going to other countries.",
+            "comment": "The verb \"go\" requires the preposition \"to\". \"Country\" should be plural as it refers to travel in general.",
+            "type": "missing preposition",
+            "band": 6,
+            "id": "gr_1",
+            "combined_tagged": "going <b>to</b> other <s>country.</s> <b>countries.</b>"
+          },
+          {
+            "content": "everyone should be learned English",
+            "revision": "everyone should learn English",
+            "comment": "The original uses a passive construction (\"be learned\") incorrectly. It should be the active voice.",
+            "type": "wrong voice",
+            "band": 6,
+            "id": "gr_2",
+            "combined_tagged": "everyone should <s>be</s> <s>learned</s> <b>learn</b> English"
+          },
+          {
+            "content": "many people speaks it.",
+            "revision": "many people speak it.",
+            "comment": "Subject-verb agreement: \"people\" is plural, so the verb should be \"speak\".",
+            "type": "subject-verb agreement",
+            "band": 6,
+            "id": "gr_3",
+            "combined_tagged": "many people <s>speaks</s> <b>speak</b> it."
+          },
+          {
+            "content": "who talk English.",
+            "revision": "who speak English.",
+            "comment": "When referring to the ability to use a language, the verb \"speak\" is used rather than \"talk\".",
+            "type": "awkward collocation",
+            "band": 7,
+            "id": "gr_4",
+            "combined_tagged": "who <s>talk</s> <b>speak</b> English."
+          },
+          {
+            "content": "It make students",
+            "revision": "It makes students",
+            "comment": "Subject-verb agreement: \"It\" is a singular third-person pronoun.",
+            "type": "subject-verb agreement",
+            "band": 6,
+            "id": "gr_5",
+            "combined_tagged": "It <s>make</s> <b>makes</b> students"
+          },
+          {
+            "content": "They is part of culture and histories.",
+            "revision": "They are part of culture and history.",
+            "comment": "Subject-verb agreement for \"they\" and \"are\". Also, \"history\" is usually uncountable when referring to the general concept of the past.",
+            "type": "subject-verb agreement",
+            "band": 6,
+            "id": "gr_6",
+            "combined_tagged": "They <s>is</s> <b>are</b> part of culture and <s>histories.</s> <b>history.</b>"
+          },
+          {
+            "content": "If we lost them, we forget our past times.",
+            "revision": "If we lose them, we will forget our past.",
+            "comment": "The first conditional is better here for a possible future. \"Past times\" is a bit awkward; \"the past\" or \"our history\" is more natural.",
+            "type": "verb tense",
+            "band": 6,
+            "id": "gr_7",
+            "combined_tagged": "If we <s>lost</s> <b>lose</b> them, we <b>will</b> forget our <s>past</s> <b>past.</b> <s>times.</s>"
+          },
+          {
+            "content": "musics is",
+            "revision": "music is",
+            "comment": "Even if the noun were plural, the verb would need to match. Since \"music\" is uncountable, it stays singular.",
+            "type": "subject-verb agreement",
+            "band": 6,
+            "id": "gr_8",
+            "combined_tagged": "<s>musics</s> <b>music</b> is"
+          }
+        ]
+      }
+    ]
+  },
+  "focus": {
+    "category": "Grammatical Range & Accuracy",
+    "title": "Subject-Verb Agreement and Verb Form Consistency",
+    "explanation": "Frequent errors in basic subject-verb agreement and incorrect verb forms throughout the essay significantly hinder the overall grammatical accuracy and precision of the response."
+  },
+  "n_words": 237,
+  "n_original_words": 237,
+  "rubric": "b1",
+  "cminor_version": "2.11.18",
+  "allowed_remaining": {
+    "remaining_coins": 40.24000000000004,
+    "max_coins": 40.24000000000004,
+    "next_refill": 31101959
+  }
+}
